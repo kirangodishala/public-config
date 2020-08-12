@@ -18,3 +18,22 @@ kubernetes:
     kubeconfigFile: /Users/ramakiran/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
+
+  - name: git-2-k8s-v2-account
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions: {}
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces: 
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds: []
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /Users/ramakiran/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+
