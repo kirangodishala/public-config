@@ -10,6 +10,7 @@ kubernetes:
     cacheThreads: 1
     namespaces: 
     - oes
+    - default
     omitNamespaces: []
     kinds: []
     omitKinds: []
@@ -19,21 +20,4 @@ kubernetes:
     oAuthScopes: []
     onlySpinnakerManaged: true
 
-  - name: git-3-k8s-v2-account
-    requiredGroupMembership: []
-    providerVersion: V2
-    permissions: {}
-    dockerRegistries: []
-    configureImagePullSecrets: true
-    cacheThreads: 1
-    namespaces: 
-    - oes
-    omitNamespaces: []
-    kinds: []
-    omitKinds: []
-    customResources: []
-    cachingPolicies: []
-    kubeconfigFile: /home/user/.kube/olddemo.config
-    oAuthScopes: []
-    onlySpinnakerManaged: true
 
