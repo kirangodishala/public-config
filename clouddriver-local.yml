@@ -1701,6 +1701,7 @@ kubernetes:
     kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
+    
   - name: k8s-acc-100
     requiredGroupMembership: []
     providerVersion: V2
@@ -6801,4 +6802,3 @@ kubernetes:
     kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
-
