@@ -86,4 +86,1619 @@ kubernetes:
     kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
+  - name: k8s-acc-5
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions: {}
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds: []
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-6
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions: {}
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds: []
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-7
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions: {}
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds: []
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-8
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions: {}
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds: []
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-9
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions: {}
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds: []
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-10
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions: {}
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds: []
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-11
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions: {}
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds: []
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-12
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions: {}
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds: []
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-13
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions: {}
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds: []
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-14
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions: {}
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds: []
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-15
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions: {}
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds: []
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-16
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions: {}
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds: []
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-17
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions: {}
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds: []
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-18
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions: {}
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds: []
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-19
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions: {}
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds: []
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-20
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions: {}
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds: []
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-21
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions: {}
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds: []
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-22
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions: {}
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds: []
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-23
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions: {}
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds: []
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-24
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions: {}
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds: []
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-25
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions: {}
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds: []
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-26
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions: {}
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds: []
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-27
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions: {}
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds: []
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-28
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions: {}
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds: []
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-29
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions: {}
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds: []
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-30
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions: {}
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds: []
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-31
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions: {}
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds: []
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-32
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions: {}
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds: []
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-33
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions: {}
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds: []
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-34
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions: {}
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds: []
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-35
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions: {}
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds: []
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-36
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions: {}
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds: []
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-37
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions: {}
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds: []
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-38
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions: {}
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds: []
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-39
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions: {}
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds: []
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-40
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions: {}
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds: []
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-41
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions: {}
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds: []
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-42
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions: {}
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds: []
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-43
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions: {}
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds: []
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-44
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions: {}
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds: []
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-45
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions: {}
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds: []
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-46
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions: {}
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds: []
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-47
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions: {}
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds: []
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-48
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions: {}
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds: []
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-49
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions: {}
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds: []
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-50
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions: {}
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds: []
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-51
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions: {}
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds: []
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-52
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions: {}
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds: []
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-53
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions: {}
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds: []
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-54
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions: {}
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds: []
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-55
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions: {}
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds: []
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-56
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions: {}
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds: []
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-57
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions: {}
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds: []
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-58
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions: {}
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds: []
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-59
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions: {}
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds: []
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-60
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions: {}
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds: []
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-61
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions: {}
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds: []
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-62
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions: {}
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds: []
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-63
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions: {}
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds: []
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-64
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions: {}
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds: []
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-65
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions: {}
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds: []
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-66
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions: {}
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds: []
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-67
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions: {}
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds: []
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-68
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions: {}
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds: []
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-69
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions: {}
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds: []
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-70
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions: {}
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds: []
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-71
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions: {}
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds: []
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-72
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions: {}
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds: []
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-73
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions: {}
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds: []
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-74
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions: {}
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds: []
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-75
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions: {}
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds: []
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-76
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions: {}
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds: []
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-77
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions: {}
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds: []
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-78
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions: {}
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds: []
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-79
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions: {}
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds: []
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-80
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions: {}
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds: []
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-81
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions: {}
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds: []
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-82
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions: {}
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds: []
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-83
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions: {}
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds: []
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-84
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions: {}
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds: []
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-85
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions: {}
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds: []
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-86
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions: {}
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds: []
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-87
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions: {}
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds: []
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-88
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions: {}
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds: []
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-89
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions: {}
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds: []
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-90
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions: {}
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds: []
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-91
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions: {}
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds: []
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-92
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions: {}
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds: []
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-93
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions: {}
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds: []
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-94
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions: {}
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds: []
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-95
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions: {}
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds: []
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-96
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions: {}
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds: []
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-97
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions: {}
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds: []
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-98
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions: {}
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds: []
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-99
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions: {}
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds: []
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
 
