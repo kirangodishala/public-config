@@ -15,7 +15,7 @@ kubernetes:
     omitKinds: []
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /Users/ramakiran/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
 
@@ -33,7 +33,7 @@ kubernetes:
     omitKinds: []
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /Users/ramakiran/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
 
