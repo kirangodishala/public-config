@@ -6801,21 +6801,4 @@ kubernetes:
     kubeconfigFile: /home/ubuntu/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
-  - name: k8s-acc-400
-    requiredGroupMembership: []
-    providerVersion: V2
-    permissions: {}
-    dockerRegistries: []
-    configureImagePullSecrets: true
-    cacheThreads: 1
-    namespaces:
-    - oes
-    omitNamespaces: []
-    kinds: []
-    omitKinds: []
-    customResources: []
-    cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
-    oAuthScopes: []
-    onlySpinnakerManaged: true
 
