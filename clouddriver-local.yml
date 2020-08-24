@@ -32,7 +32,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-1
@@ -66,7 +66,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-2
@@ -100,7 +100,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-3
@@ -134,7 +134,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-4
@@ -168,7 +168,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-5
@@ -202,7 +202,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-6
@@ -236,7 +236,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-7
@@ -270,7 +270,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-8
@@ -304,7 +304,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-9
@@ -338,7 +338,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-10
@@ -372,7 +372,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-11
@@ -406,7 +406,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-12
@@ -440,7 +440,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-13
@@ -474,7 +474,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-14
@@ -508,7 +508,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-15
@@ -542,7 +542,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-16
@@ -576,7 +576,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-17
@@ -610,7 +610,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-18
@@ -644,7 +644,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-19
@@ -678,7 +678,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-20
@@ -712,7 +712,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-21
@@ -746,7 +746,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-22
@@ -780,7 +780,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-23
@@ -814,7 +814,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-24
@@ -848,7 +848,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-25
@@ -882,7 +882,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-26
@@ -916,7 +916,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-27
@@ -950,7 +950,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-28
@@ -984,7 +984,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-29
@@ -1018,7 +1018,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-30
@@ -1052,7 +1052,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-31
@@ -1086,7 +1086,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-32
@@ -1120,7 +1120,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-33
@@ -1154,7 +1154,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-34
@@ -1188,7 +1188,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-35
@@ -1222,7 +1222,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-36
@@ -1256,7 +1256,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-37
@@ -1290,7 +1290,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-38
@@ -1324,7 +1324,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-39
@@ -1358,7 +1358,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-40
@@ -1392,7 +1392,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-41
@@ -1426,7 +1426,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-42
@@ -1460,7 +1460,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-43
@@ -1494,7 +1494,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-44
@@ -1528,7 +1528,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-45
@@ -1562,7 +1562,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-46
@@ -1596,7 +1596,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-47
@@ -1630,7 +1630,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-48
@@ -1664,7 +1664,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-49
@@ -1698,7 +1698,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-50
@@ -1732,7 +1732,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-51
@@ -1766,7 +1766,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-52
@@ -1800,7 +1800,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-53
@@ -1834,7 +1834,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-54
@@ -1868,7 +1868,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-55
@@ -1902,7 +1902,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-56
@@ -1936,7 +1936,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-57
@@ -1970,7 +1970,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-58
@@ -2004,7 +2004,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-59
@@ -2038,7 +2038,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-60
@@ -2072,7 +2072,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-61
@@ -2106,7 +2106,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-62
@@ -2140,7 +2140,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-63
@@ -2174,7 +2174,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-64
@@ -2208,7 +2208,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-65
@@ -2242,7 +2242,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-66
@@ -2276,7 +2276,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-67
@@ -2310,7 +2310,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-68
@@ -2344,7 +2344,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-69
@@ -2378,7 +2378,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-70
@@ -2412,7 +2412,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-71
@@ -2446,7 +2446,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-72
@@ -2480,7 +2480,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-73
@@ -2514,7 +2514,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-74
@@ -2548,7 +2548,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-75
@@ -2582,7 +2582,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-76
@@ -2616,7 +2616,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-77
@@ -2650,7 +2650,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-78
@@ -2684,7 +2684,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-79
@@ -2718,7 +2718,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-80
@@ -2752,7 +2752,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-81
@@ -2786,7 +2786,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-82
@@ -2820,7 +2820,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-83
@@ -2854,7 +2854,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-84
@@ -2888,7 +2888,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-85
@@ -2922,7 +2922,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-86
@@ -2956,7 +2956,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-87
@@ -2990,7 +2990,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-88
@@ -3024,7 +3024,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-89
@@ -3058,7 +3058,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-90
@@ -3092,7 +3092,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-91
@@ -3126,7 +3126,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-92
@@ -3160,7 +3160,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-93
@@ -3194,7 +3194,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-94
@@ -3228,7 +3228,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-95
@@ -3262,7 +3262,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-96
@@ -3296,7 +3296,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-97
@@ -3330,7 +3330,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-98
@@ -3364,7 +3364,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-99
@@ -3398,7 +3398,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-100
@@ -3432,7 +3432,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-101
@@ -3466,7 +3466,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-102
@@ -3500,7 +3500,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-103
@@ -3534,7 +3534,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-104
@@ -3568,7 +3568,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-105
@@ -3602,7 +3602,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-106
@@ -3636,7 +3636,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-107
@@ -3670,7 +3670,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-108
@@ -3704,7 +3704,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-109
@@ -3738,7 +3738,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-110
@@ -3772,7 +3772,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-111
@@ -3806,7 +3806,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-112
@@ -3840,7 +3840,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-113
@@ -3874,7 +3874,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-114
@@ -3908,7 +3908,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-115
@@ -3942,7 +3942,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-116
@@ -3976,7 +3976,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-117
@@ -4010,7 +4010,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-118
@@ -4044,7 +4044,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-119
@@ -4078,7 +4078,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-120
@@ -4112,7 +4112,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-121
@@ -4146,7 +4146,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-122
@@ -4180,7 +4180,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-123
@@ -4214,7 +4214,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-124
@@ -4248,7 +4248,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-125
@@ -4282,7 +4282,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-126
@@ -4316,7 +4316,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-127
@@ -4350,7 +4350,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-128
@@ -4384,7 +4384,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-129
@@ -4418,7 +4418,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-130
@@ -4452,7 +4452,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-131
@@ -4486,7 +4486,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-132
@@ -4520,7 +4520,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-133
@@ -4554,7 +4554,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-134
@@ -4588,7 +4588,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-135
@@ -4622,7 +4622,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-136
@@ -4656,7 +4656,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-137
@@ -4690,7 +4690,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-138
@@ -4724,7 +4724,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-139
@@ -4758,7 +4758,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-140
@@ -4792,7 +4792,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-141
@@ -4826,7 +4826,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-142
@@ -4860,7 +4860,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-143
@@ -4894,7 +4894,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-144
@@ -4928,7 +4928,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-145
@@ -4962,7 +4962,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-146
@@ -4996,7 +4996,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-147
@@ -5030,7 +5030,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-148
@@ -5064,7 +5064,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-149
@@ -5098,7 +5098,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-150
@@ -5132,7 +5132,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-151
@@ -5166,7 +5166,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-152
@@ -5200,7 +5200,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-153
@@ -5234,7 +5234,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-154
@@ -5268,7 +5268,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-155
@@ -5302,7 +5302,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-156
@@ -5336,7 +5336,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-157
@@ -5370,7 +5370,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-158
@@ -5404,7 +5404,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-159
@@ -5438,7 +5438,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-160
@@ -5472,7 +5472,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-161
@@ -5506,7 +5506,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-162
@@ -5540,7 +5540,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-163
@@ -5574,7 +5574,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-164
@@ -5608,7 +5608,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-165
@@ -5642,7 +5642,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-166
@@ -5676,7 +5676,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-167
@@ -5710,7 +5710,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-168
@@ -5744,7 +5744,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-169
@@ -5778,7 +5778,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-170
@@ -5812,7 +5812,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-171
@@ -5846,7 +5846,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-172
@@ -5880,7 +5880,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-173
@@ -5914,7 +5914,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-174
@@ -5948,7 +5948,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-175
@@ -5982,7 +5982,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-176
@@ -6016,7 +6016,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-177
@@ -6050,7 +6050,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-178
@@ -6084,7 +6084,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-179
@@ -6118,7 +6118,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-180
@@ -6152,7 +6152,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-181
@@ -6186,7 +6186,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-182
@@ -6220,7 +6220,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-183
@@ -6254,7 +6254,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-184
@@ -6288,7 +6288,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-185
@@ -6322,7 +6322,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-186
@@ -6356,7 +6356,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-187
@@ -6390,7 +6390,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-188
@@ -6424,7 +6424,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-189
@@ -6458,7 +6458,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-190
@@ -6492,7 +6492,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-191
@@ -6526,7 +6526,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-192
@@ -6560,7 +6560,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-193
@@ -6594,7 +6594,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-194
@@ -6628,7 +6628,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-195
@@ -6662,7 +6662,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-196
@@ -6696,7 +6696,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-197
@@ -6730,7 +6730,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-198
@@ -6764,7 +6764,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-199
@@ -6798,7 +6798,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-200
@@ -6832,7 +6832,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-201
@@ -6866,7 +6866,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-202
@@ -6900,7 +6900,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-203
@@ -6934,7 +6934,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-204
@@ -6968,7 +6968,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-205
@@ -7002,7 +7002,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-206
@@ -7036,7 +7036,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-207
@@ -7070,7 +7070,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-208
@@ -7104,7 +7104,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-209
@@ -7138,7 +7138,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-210
@@ -7172,7 +7172,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-211
@@ -7206,7 +7206,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-212
@@ -7240,7 +7240,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-213
@@ -7274,7 +7274,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-214
@@ -7308,7 +7308,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-215
@@ -7342,7 +7342,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-216
@@ -7376,7 +7376,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-217
@@ -7410,7 +7410,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-218
@@ -7444,7 +7444,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-219
@@ -7478,7 +7478,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-220
@@ -7512,7 +7512,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-221
@@ -7546,7 +7546,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-222
@@ -7580,7 +7580,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-223
@@ -7614,7 +7614,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-224
@@ -7648,7 +7648,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-225
@@ -7682,7 +7682,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-226
@@ -7716,7 +7716,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-227
@@ -7750,7 +7750,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-228
@@ -7784,7 +7784,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-229
@@ -7818,7 +7818,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-230
@@ -7852,7 +7852,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-231
@@ -7886,7 +7886,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-232
@@ -7920,7 +7920,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-233
@@ -7954,7 +7954,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-234
@@ -7988,7 +7988,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-235
@@ -8022,7 +8022,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-236
@@ -8056,7 +8056,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-237
@@ -8090,7 +8090,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-238
@@ -8124,7 +8124,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-239
@@ -8158,7 +8158,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-240
@@ -8192,7 +8192,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-241
@@ -8226,7 +8226,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-242
@@ -8260,7 +8260,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-243
@@ -8294,7 +8294,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-244
@@ -8328,7 +8328,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-245
@@ -8362,7 +8362,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-246
@@ -8396,7 +8396,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-247
@@ -8430,7 +8430,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-248
@@ -8464,7 +8464,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-249
@@ -8498,7 +8498,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-250
@@ -8532,7 +8532,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-251
@@ -8566,7 +8566,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-252
@@ -8600,7 +8600,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-253
@@ -8634,7 +8634,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-254
@@ -8668,7 +8668,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-255
@@ -8702,7 +8702,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-256
@@ -8736,7 +8736,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-257
@@ -8770,7 +8770,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-258
@@ -8804,7 +8804,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-259
@@ -8838,7 +8838,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-260
@@ -8872,7 +8872,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-261
@@ -8906,7 +8906,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-262
@@ -8940,7 +8940,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-263
@@ -8974,7 +8974,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-264
@@ -9008,7 +9008,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-265
@@ -9042,7 +9042,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-266
@@ -9076,7 +9076,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-267
@@ -9110,7 +9110,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-268
@@ -9144,7 +9144,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-269
@@ -9178,7 +9178,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-270
@@ -9212,7 +9212,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-271
@@ -9246,7 +9246,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-272
@@ -9280,7 +9280,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-273
@@ -9314,7 +9314,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-274
@@ -9348,7 +9348,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-275
@@ -9382,7 +9382,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-276
@@ -9416,7 +9416,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-277
@@ -9450,7 +9450,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-278
@@ -9484,7 +9484,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-279
@@ -9518,7 +9518,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-280
@@ -9552,7 +9552,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-281
@@ -9586,7 +9586,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-282
@@ -9620,7 +9620,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-283
@@ -9654,7 +9654,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-284
@@ -9688,7 +9688,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-285
@@ -9722,7 +9722,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-286
@@ -9756,7 +9756,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-287
@@ -9790,7 +9790,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-288
@@ -9824,7 +9824,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-289
@@ -9858,7 +9858,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-290
@@ -9892,7 +9892,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-291
@@ -9926,7 +9926,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-292
@@ -9960,7 +9960,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-293
@@ -9994,7 +9994,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-294
@@ -10028,7 +10028,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-295
@@ -10062,7 +10062,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-296
@@ -10096,7 +10096,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-297
@@ -10130,7 +10130,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-298
@@ -10164,7 +10164,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-299
@@ -10198,7 +10198,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-300
@@ -10232,7 +10232,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-301
@@ -10266,7 +10266,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-302
@@ -10300,7 +10300,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-303
@@ -10334,7 +10334,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-304
@@ -10368,7 +10368,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-305
@@ -10402,7 +10402,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-306
@@ -10436,7 +10436,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-307
@@ -10470,7 +10470,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-308
@@ -10504,7 +10504,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-309
@@ -10538,7 +10538,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-310
@@ -10572,7 +10572,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-311
@@ -10606,7 +10606,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-312
@@ -10640,7 +10640,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-313
@@ -10674,7 +10674,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-314
@@ -10708,7 +10708,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-315
@@ -10742,7 +10742,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-316
@@ -10776,7 +10776,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-317
@@ -10810,7 +10810,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-318
@@ -10844,7 +10844,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-319
@@ -10878,7 +10878,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-320
@@ -10912,7 +10912,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-321
@@ -10946,7 +10946,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-322
@@ -10980,7 +10980,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-323
@@ -11014,7 +11014,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-324
@@ -11048,7 +11048,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-325
@@ -11082,7 +11082,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-326
@@ -11116,7 +11116,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-327
@@ -11150,7 +11150,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-328
@@ -11184,7 +11184,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-329
@@ -11218,7 +11218,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-330
@@ -11252,7 +11252,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-331
@@ -11286,7 +11286,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-332
@@ -11320,7 +11320,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-333
@@ -11354,7 +11354,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-334
@@ -11388,7 +11388,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-335
@@ -11422,7 +11422,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-336
@@ -11456,7 +11456,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-337
@@ -11490,7 +11490,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-338
@@ -11524,7 +11524,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-339
@@ -11558,7 +11558,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-340
@@ -11592,7 +11592,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-341
@@ -11626,7 +11626,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-342
@@ -11660,7 +11660,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-343
@@ -11694,7 +11694,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-344
@@ -11728,7 +11728,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-345
@@ -11762,7 +11762,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-346
@@ -11796,7 +11796,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-347
@@ -11830,7 +11830,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-348
@@ -11864,7 +11864,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-349
@@ -11898,7 +11898,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-350
@@ -11932,7 +11932,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-351
@@ -11966,7 +11966,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-352
@@ -12000,7 +12000,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-353
@@ -12034,7 +12034,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-354
@@ -12068,7 +12068,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-355
@@ -12102,7 +12102,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-356
@@ -12136,7 +12136,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-357
@@ -12170,7 +12170,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-358
@@ -12204,7 +12204,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-359
@@ -12238,7 +12238,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-360
@@ -12272,7 +12272,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-361
@@ -12306,7 +12306,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-362
@@ -12340,7 +12340,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-363
@@ -12374,7 +12374,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-364
@@ -12408,7 +12408,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-365
@@ -12442,7 +12442,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-366
@@ -12476,7 +12476,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-367
@@ -12510,7 +12510,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-368
@@ -12544,7 +12544,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-369
@@ -12578,7 +12578,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-370
@@ -12612,7 +12612,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-371
@@ -12646,7 +12646,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-372
@@ -12680,7 +12680,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-373
@@ -12714,7 +12714,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-374
@@ -12748,7 +12748,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-375
@@ -12782,7 +12782,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-376
@@ -12816,7 +12816,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-377
@@ -12850,7 +12850,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-378
@@ -12884,7 +12884,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-379
@@ -12918,7 +12918,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-380
@@ -12952,7 +12952,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-381
@@ -12986,7 +12986,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-382
@@ -13020,7 +13020,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-383
@@ -13054,7 +13054,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-384
@@ -13088,7 +13088,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-385
@@ -13122,7 +13122,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-386
@@ -13156,7 +13156,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-387
@@ -13190,7 +13190,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-388
@@ -13224,7 +13224,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-389
@@ -13258,7 +13258,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-390
@@ -13292,7 +13292,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-391
@@ -13326,7 +13326,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-392
@@ -13360,7 +13360,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-393
@@ -13394,7 +13394,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-394
@@ -13428,7 +13428,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-395
@@ -13462,7 +13462,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-396
@@ -13496,7 +13496,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-397
@@ -13530,7 +13530,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-398
@@ -13564,7 +13564,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-399
@@ -13598,7 +13598,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-400
@@ -13632,7 +13632,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-401
@@ -13666,7 +13666,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-402
@@ -13700,7 +13700,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-403
@@ -13734,7 +13734,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-404
@@ -13768,7 +13768,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-405
@@ -13802,7 +13802,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-406
@@ -13836,7 +13836,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-407
@@ -13870,7 +13870,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-408
@@ -13904,7 +13904,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-409
@@ -13938,7 +13938,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-410
@@ -13972,7 +13972,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-411
@@ -14006,7 +14006,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-412
@@ -14040,7 +14040,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-413
@@ -14074,7 +14074,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-414
@@ -14108,7 +14108,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-415
@@ -14142,7 +14142,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-416
@@ -14176,7 +14176,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-417
@@ -14210,7 +14210,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-418
@@ -14244,7 +14244,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-419
@@ -14278,7 +14278,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-420
@@ -14312,7 +14312,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-421
@@ -14346,7 +14346,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-422
@@ -14380,7 +14380,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-423
@@ -14414,7 +14414,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-424
@@ -14448,7 +14448,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-425
@@ -14482,7 +14482,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-426
@@ -14516,7 +14516,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-427
@@ -14550,7 +14550,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-428
@@ -14584,7 +14584,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-429
@@ -14618,7 +14618,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-430
@@ -14652,7 +14652,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-431
@@ -14686,7 +14686,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-432
@@ -14720,7 +14720,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-433
@@ -14754,7 +14754,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-434
@@ -14788,7 +14788,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-435
@@ -14822,7 +14822,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-436
@@ -14856,7 +14856,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-437
@@ -14890,7 +14890,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-438
@@ -14924,7 +14924,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-439
@@ -14958,7 +14958,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-440
@@ -14992,7 +14992,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-441
@@ -15026,7 +15026,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-442
@@ -15060,7 +15060,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-443
@@ -15094,7 +15094,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-444
@@ -15128,7 +15128,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-445
@@ -15162,7 +15162,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-446
@@ -15196,7 +15196,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-447
@@ -15230,7 +15230,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-448
@@ -15264,7 +15264,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-449
@@ -15298,7 +15298,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-450
@@ -15332,7 +15332,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-451
@@ -15366,7 +15366,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-452
@@ -15400,7 +15400,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-453
@@ -15434,7 +15434,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-454
@@ -15468,7 +15468,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-455
@@ -15502,7 +15502,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-456
@@ -15536,7 +15536,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-457
@@ -15570,7 +15570,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-458
@@ -15604,7 +15604,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-459
@@ -15638,7 +15638,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-460
@@ -15672,7 +15672,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-461
@@ -15706,7 +15706,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-462
@@ -15740,7 +15740,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-463
@@ -15774,7 +15774,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-464
@@ -15808,7 +15808,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-465
@@ -15842,7 +15842,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-466
@@ -15876,7 +15876,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-467
@@ -15910,7 +15910,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-468
@@ -15944,7 +15944,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-469
@@ -15978,7 +15978,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-470
@@ -16012,7 +16012,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-471
@@ -16046,7 +16046,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-472
@@ -16080,7 +16080,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-473
@@ -16114,7 +16114,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-474
@@ -16148,7 +16148,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-475
@@ -16182,7 +16182,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-476
@@ -16216,7 +16216,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-477
@@ -16250,7 +16250,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-478
@@ -16284,7 +16284,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-479
@@ -16318,7 +16318,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-480
@@ -16352,7 +16352,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-481
@@ -16386,7 +16386,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-482
@@ -16420,7 +16420,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-483
@@ -16454,7 +16454,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-484
@@ -16488,7 +16488,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-485
@@ -16522,7 +16522,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-486
@@ -16556,7 +16556,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-487
@@ -16590,7 +16590,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-488
@@ -16624,7 +16624,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-489
@@ -16658,7 +16658,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-490
@@ -16692,7 +16692,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-491
@@ -16726,7 +16726,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-492
@@ -16760,7 +16760,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-493
@@ -16794,7 +16794,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-494
@@ -16828,7 +16828,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-495
@@ -16862,7 +16862,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-496
@@ -16896,7 +16896,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-497
@@ -16930,7 +16930,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-498
@@ -16964,7 +16964,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
   - name: k8s-acc-499
@@ -16998,7 +16998,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /home/ubuntu/.kube/olddemo.config
+    kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
 
