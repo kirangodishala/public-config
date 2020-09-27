@@ -1,6 +1,6 @@
 ---
 spring:
-  profile: caching-local
+  profiles: caching-local
 
 kubernetes:
   enabled: true
@@ -42,7 +42,7 @@ kubernetes:
 
 ---
 spring:
-  profile: caching-1-local
+  profiles: caching-1-local
 
 kubernetes:
   enabled: true
@@ -84,7 +84,7 @@ kubernetes:
 
 ---
 spring:
-  profile: caching-2-local
+  profiles: caching-2-local
 
 kubernetes:
   enabled: true
