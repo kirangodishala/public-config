@@ -8501,4 +8501,3404 @@ kubernetes:
     kubeconfigFile: /home/user/.kube/olddemo.config
     oAuthScopes: []
     onlySpinnakerManaged: true
+  - name: k8s-acc-250
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions:
+      READ:
+      - read1
+      - read2
+      WRITE:
+      - write1
+      - write2
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-251
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions:
+      READ:
+      - read1
+      - read2
+      WRITE:
+      - write1
+      - write2
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-252
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions:
+      READ:
+      - read1
+      - read2
+      WRITE:
+      - write1
+      - write2
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-253
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions:
+      READ:
+      - read1
+      - read2
+      WRITE:
+      - write1
+      - write2
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-254
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions:
+      READ:
+      - read1
+      - read2
+      WRITE:
+      - write1
+      - write2
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-255
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions:
+      READ:
+      - read1
+      - read2
+      WRITE:
+      - write1
+      - write2
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-256
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions:
+      READ:
+      - read1
+      - read2
+      WRITE:
+      - write1
+      - write2
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-257
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions:
+      READ:
+      - read1
+      - read2
+      WRITE:
+      - write1
+      - write2
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-258
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions:
+      READ:
+      - read1
+      - read2
+      WRITE:
+      - write1
+      - write2
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-259
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions:
+      READ:
+      - read1
+      - read2
+      WRITE:
+      - write1
+      - write2
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-260
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions:
+      READ:
+      - read1
+      - read2
+      WRITE:
+      - write1
+      - write2
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-261
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions:
+      READ:
+      - read1
+      - read2
+      WRITE:
+      - write1
+      - write2
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-262
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions:
+      READ:
+      - read1
+      - read2
+      WRITE:
+      - write1
+      - write2
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-263
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions:
+      READ:
+      - read1
+      - read2
+      WRITE:
+      - write1
+      - write2
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-264
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions:
+      READ:
+      - read1
+      - read2
+      WRITE:
+      - write1
+      - write2
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-265
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions:
+      READ:
+      - read1
+      - read2
+      WRITE:
+      - write1
+      - write2
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-266
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions:
+      READ:
+      - read1
+      - read2
+      WRITE:
+      - write1
+      - write2
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-267
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions:
+      READ:
+      - read1
+      - read2
+      WRITE:
+      - write1
+      - write2
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-268
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions:
+      READ:
+      - read1
+      - read2
+      WRITE:
+      - write1
+      - write2
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-269
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions:
+      READ:
+      - read1
+      - read2
+      WRITE:
+      - write1
+      - write2
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-270
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions:
+      READ:
+      - read1
+      - read2
+      WRITE:
+      - write1
+      - write2
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-271
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions:
+      READ:
+      - read1
+      - read2
+      WRITE:
+      - write1
+      - write2
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-272
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions:
+      READ:
+      - read1
+      - read2
+      WRITE:
+      - write1
+      - write2
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-273
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions:
+      READ:
+      - read1
+      - read2
+      WRITE:
+      - write1
+      - write2
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-274
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions:
+      READ:
+      - read1
+      - read2
+      WRITE:
+      - write1
+      - write2
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-275
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions:
+      READ:
+      - read1
+      - read2
+      WRITE:
+      - write1
+      - write2
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-276
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions:
+      READ:
+      - read1
+      - read2
+      WRITE:
+      - write1
+      - write2
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-277
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions:
+      READ:
+      - read1
+      - read2
+      WRITE:
+      - write1
+      - write2
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-278
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions:
+      READ:
+      - read1
+      - read2
+      WRITE:
+      - write1
+      - write2
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-279
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions:
+      READ:
+      - read1
+      - read2
+      WRITE:
+      - write1
+      - write2
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-280
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions:
+      READ:
+      - read1
+      - read2
+      WRITE:
+      - write1
+      - write2
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-281
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions:
+      READ:
+      - read1
+      - read2
+      WRITE:
+      - write1
+      - write2
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-282
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions:
+      READ:
+      - read1
+      - read2
+      WRITE:
+      - write1
+      - write2
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-283
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions:
+      READ:
+      - read1
+      - read2
+      WRITE:
+      - write1
+      - write2
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-284
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions:
+      READ:
+      - read1
+      - read2
+      WRITE:
+      - write1
+      - write2
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-285
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions:
+      READ:
+      - read1
+      - read2
+      WRITE:
+      - write1
+      - write2
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-286
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions:
+      READ:
+      - read1
+      - read2
+      WRITE:
+      - write1
+      - write2
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-287
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions:
+      READ:
+      - read1
+      - read2
+      WRITE:
+      - write1
+      - write2
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-288
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions:
+      READ:
+      - read1
+      - read2
+      WRITE:
+      - write1
+      - write2
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-289
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions:
+      READ:
+      - read1
+      - read2
+      WRITE:
+      - write1
+      - write2
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-290
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions:
+      READ:
+      - read1
+      - read2
+      WRITE:
+      - write1
+      - write2
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-291
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions:
+      READ:
+      - read1
+      - read2
+      WRITE:
+      - write1
+      - write2
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-292
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions:
+      READ:
+      - read1
+      - read2
+      WRITE:
+      - write1
+      - write2
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-293
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions:
+      READ:
+      - read1
+      - read2
+      WRITE:
+      - write1
+      - write2
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-294
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions:
+      READ:
+      - read1
+      - read2
+      WRITE:
+      - write1
+      - write2
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-295
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions:
+      READ:
+      - read1
+      - read2
+      WRITE:
+      - write1
+      - write2
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-296
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions:
+      READ:
+      - read1
+      - read2
+      WRITE:
+      - write1
+      - write2
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-297
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions:
+      READ:
+      - read1
+      - read2
+      WRITE:
+      - write1
+      - write2
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-298
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions:
+      READ:
+      - read1
+      - read2
+      WRITE:
+      - write1
+      - write2
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-299
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions:
+      READ:
+      - read1
+      - read2
+      WRITE:
+      - write1
+      - write2
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-300
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions:
+      READ:
+      - read1
+      - read2
+      WRITE:
+      - write1
+      - write2
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-301
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions:
+      READ:
+      - read1
+      - read2
+      WRITE:
+      - write1
+      - write2
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-302
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions:
+      READ:
+      - read1
+      - read2
+      WRITE:
+      - write1
+      - write2
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-303
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions:
+      READ:
+      - read1
+      - read2
+      WRITE:
+      - write1
+      - write2
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-304
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions:
+      READ:
+      - read1
+      - read2
+      WRITE:
+      - write1
+      - write2
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-305
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions:
+      READ:
+      - read1
+      - read2
+      WRITE:
+      - write1
+      - write2
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-306
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions:
+      READ:
+      - read1
+      - read2
+      WRITE:
+      - write1
+      - write2
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-307
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions:
+      READ:
+      - read1
+      - read2
+      WRITE:
+      - write1
+      - write2
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-308
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions:
+      READ:
+      - read1
+      - read2
+      WRITE:
+      - write1
+      - write2
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-309
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions:
+      READ:
+      - read1
+      - read2
+      WRITE:
+      - write1
+      - write2
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-310
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions:
+      READ:
+      - read1
+      - read2
+      WRITE:
+      - write1
+      - write2
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-311
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions:
+      READ:
+      - read1
+      - read2
+      WRITE:
+      - write1
+      - write2
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-312
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions:
+      READ:
+      - read1
+      - read2
+      WRITE:
+      - write1
+      - write2
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-313
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions:
+      READ:
+      - read1
+      - read2
+      WRITE:
+      - write1
+      - write2
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-314
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions:
+      READ:
+      - read1
+      - read2
+      WRITE:
+      - write1
+      - write2
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-315
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions:
+      READ:
+      - read1
+      - read2
+      WRITE:
+      - write1
+      - write2
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-316
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions:
+      READ:
+      - read1
+      - read2
+      WRITE:
+      - write1
+      - write2
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-317
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions:
+      READ:
+      - read1
+      - read2
+      WRITE:
+      - write1
+      - write2
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-318
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions:
+      READ:
+      - read1
+      - read2
+      WRITE:
+      - write1
+      - write2
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-319
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions:
+      READ:
+      - read1
+      - read2
+      WRITE:
+      - write1
+      - write2
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-320
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions:
+      READ:
+      - read1
+      - read2
+      WRITE:
+      - write1
+      - write2
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-321
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions:
+      READ:
+      - read1
+      - read2
+      WRITE:
+      - write1
+      - write2
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-322
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions:
+      READ:
+      - read1
+      - read2
+      WRITE:
+      - write1
+      - write2
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-323
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions:
+      READ:
+      - read1
+      - read2
+      WRITE:
+      - write1
+      - write2
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-324
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions:
+      READ:
+      - read1
+      - read2
+      WRITE:
+      - write1
+      - write2
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-325
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions:
+      READ:
+      - read1
+      - read2
+      WRITE:
+      - write1
+      - write2
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-326
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions:
+      READ:
+      - read1
+      - read2
+      WRITE:
+      - write1
+      - write2
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-327
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions:
+      READ:
+      - read1
+      - read2
+      WRITE:
+      - write1
+      - write2
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-328
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions:
+      READ:
+      - read1
+      - read2
+      WRITE:
+      - write1
+      - write2
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-329
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions:
+      READ:
+      - read1
+      - read2
+      WRITE:
+      - write1
+      - write2
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-330
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions:
+      READ:
+      - read1
+      - read2
+      WRITE:
+      - write1
+      - write2
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-331
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions:
+      READ:
+      - read1
+      - read2
+      WRITE:
+      - write1
+      - write2
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-332
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions:
+      READ:
+      - read1
+      - read2
+      WRITE:
+      - write1
+      - write2
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-333
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions:
+      READ:
+      - read1
+      - read2
+      WRITE:
+      - write1
+      - write2
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-334
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions:
+      READ:
+      - read1
+      - read2
+      WRITE:
+      - write1
+      - write2
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-335
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions:
+      READ:
+      - read1
+      - read2
+      WRITE:
+      - write1
+      - write2
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-336
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions:
+      READ:
+      - read1
+      - read2
+      WRITE:
+      - write1
+      - write2
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-337
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions:
+      READ:
+      - read1
+      - read2
+      WRITE:
+      - write1
+      - write2
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-338
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions:
+      READ:
+      - read1
+      - read2
+      WRITE:
+      - write1
+      - write2
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-339
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions:
+      READ:
+      - read1
+      - read2
+      WRITE:
+      - write1
+      - write2
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-340
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions:
+      READ:
+      - read1
+      - read2
+      WRITE:
+      - write1
+      - write2
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-341
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions:
+      READ:
+      - read1
+      - read2
+      WRITE:
+      - write1
+      - write2
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-342
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions:
+      READ:
+      - read1
+      - read2
+      WRITE:
+      - write1
+      - write2
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-343
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions:
+      READ:
+      - read1
+      - read2
+      WRITE:
+      - write1
+      - write2
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-344
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions:
+      READ:
+      - read1
+      - read2
+      WRITE:
+      - write1
+      - write2
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-345
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions:
+      READ:
+      - read1
+      - read2
+      WRITE:
+      - write1
+      - write2
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-346
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions:
+      READ:
+      - read1
+      - read2
+      WRITE:
+      - write1
+      - write2
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-347
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions:
+      READ:
+      - read1
+      - read2
+      WRITE:
+      - write1
+      - write2
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-348
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions:
+      READ:
+      - read1
+      - read2
+      WRITE:
+      - write1
+      - write2
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: k8s-acc-349
+    requiredGroupMembership: []
+    providerVersion: V2
+    permissions:
+      READ:
+      - read1
+      - read2
+      WRITE:
+      - write1
+      - write2
+    dockerRegistries: []
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
 
