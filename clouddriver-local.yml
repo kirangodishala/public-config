@@ -5601,4 +5601,5604 @@ kubernetes:
     debug: false
     metrics: true
     checkPermissionsOnStartup: true
+  - name: k8s-acc-100
+    requiredGroupMembership: []
+    permissions:
+      READ:
+      - read1
+      - read2
+      - read3
+      - read4
+      - read5
+      - read6
+      WRITE:
+      - write1
+      - write2
+      - write3
+      - write4
+      - write5
+      - write6
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    - baseline-spinnaker
+    - spinnaker
+    - dev-spinnaker
+    - stg-spinnaker
+    - qa-spinnaker
+    - demo-spinnaker
+    - demo2-spin
+    - stg2-spin
+    - dev2-spin
+    - dev3-spin
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    kubeconfigContents: kubeconfigContents
+    kubectlExecutable: kubectlExecutable
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+    namingStrategy: kubernetesAnnotations
+    debug: false
+    metrics: true
+    checkPermissionsOnStartup: true
+  - name: k8s-acc-101
+    requiredGroupMembership: []
+    permissions:
+      READ:
+      - read1
+      - read2
+      - read3
+      - read4
+      - read5
+      - read6
+      WRITE:
+      - write1
+      - write2
+      - write3
+      - write4
+      - write5
+      - write6
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    - baseline-spinnaker
+    - spinnaker
+    - dev-spinnaker
+    - stg-spinnaker
+    - qa-spinnaker
+    - demo-spinnaker
+    - demo2-spin
+    - stg2-spin
+    - dev2-spin
+    - dev3-spin
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    kubeconfigContents: kubeconfigContents
+    kubectlExecutable: kubectlExecutable
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+    namingStrategy: kubernetesAnnotations
+    debug: false
+    metrics: true
+    checkPermissionsOnStartup: true
+  - name: k8s-acc-102
+    requiredGroupMembership: []
+    permissions:
+      READ:
+      - read1
+      - read2
+      - read3
+      - read4
+      - read5
+      - read6
+      WRITE:
+      - write1
+      - write2
+      - write3
+      - write4
+      - write5
+      - write6
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    - baseline-spinnaker
+    - spinnaker
+    - dev-spinnaker
+    - stg-spinnaker
+    - qa-spinnaker
+    - demo-spinnaker
+    - demo2-spin
+    - stg2-spin
+    - dev2-spin
+    - dev3-spin
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    kubeconfigContents: kubeconfigContents
+    kubectlExecutable: kubectlExecutable
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+    namingStrategy: kubernetesAnnotations
+    debug: false
+    metrics: true
+    checkPermissionsOnStartup: true
+  - name: k8s-acc-103
+    requiredGroupMembership: []
+    permissions:
+      READ:
+      - read1
+      - read2
+      - read3
+      - read4
+      - read5
+      - read6
+      WRITE:
+      - write1
+      - write2
+      - write3
+      - write4
+      - write5
+      - write6
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    - baseline-spinnaker
+    - spinnaker
+    - dev-spinnaker
+    - stg-spinnaker
+    - qa-spinnaker
+    - demo-spinnaker
+    - demo2-spin
+    - stg2-spin
+    - dev2-spin
+    - dev3-spin
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    kubeconfigContents: kubeconfigContents
+    kubectlExecutable: kubectlExecutable
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+    namingStrategy: kubernetesAnnotations
+    debug: false
+    metrics: true
+    checkPermissionsOnStartup: true
+  - name: k8s-acc-104
+    requiredGroupMembership: []
+    permissions:
+      READ:
+      - read1
+      - read2
+      - read3
+      - read4
+      - read5
+      - read6
+      WRITE:
+      - write1
+      - write2
+      - write3
+      - write4
+      - write5
+      - write6
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    - baseline-spinnaker
+    - spinnaker
+    - dev-spinnaker
+    - stg-spinnaker
+    - qa-spinnaker
+    - demo-spinnaker
+    - demo2-spin
+    - stg2-spin
+    - dev2-spin
+    - dev3-spin
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    kubeconfigContents: kubeconfigContents
+    kubectlExecutable: kubectlExecutable
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+    namingStrategy: kubernetesAnnotations
+    debug: false
+    metrics: true
+    checkPermissionsOnStartup: true
+  - name: k8s-acc-105
+    requiredGroupMembership: []
+    permissions:
+      READ:
+      - read1
+      - read2
+      - read3
+      - read4
+      - read5
+      - read6
+      WRITE:
+      - write1
+      - write2
+      - write3
+      - write4
+      - write5
+      - write6
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    - baseline-spinnaker
+    - spinnaker
+    - dev-spinnaker
+    - stg-spinnaker
+    - qa-spinnaker
+    - demo-spinnaker
+    - demo2-spin
+    - stg2-spin
+    - dev2-spin
+    - dev3-spin
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    kubeconfigContents: kubeconfigContents
+    kubectlExecutable: kubectlExecutable
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+    namingStrategy: kubernetesAnnotations
+    debug: false
+    metrics: true
+    checkPermissionsOnStartup: true
+  - name: k8s-acc-106
+    requiredGroupMembership: []
+    permissions:
+      READ:
+      - read1
+      - read2
+      - read3
+      - read4
+      - read5
+      - read6
+      WRITE:
+      - write1
+      - write2
+      - write3
+      - write4
+      - write5
+      - write6
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    - baseline-spinnaker
+    - spinnaker
+    - dev-spinnaker
+    - stg-spinnaker
+    - qa-spinnaker
+    - demo-spinnaker
+    - demo2-spin
+    - stg2-spin
+    - dev2-spin
+    - dev3-spin
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    kubeconfigContents: kubeconfigContents
+    kubectlExecutable: kubectlExecutable
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+    namingStrategy: kubernetesAnnotations
+    debug: false
+    metrics: true
+    checkPermissionsOnStartup: true
+  - name: k8s-acc-107
+    requiredGroupMembership: []
+    permissions:
+      READ:
+      - read1
+      - read2
+      - read3
+      - read4
+      - read5
+      - read6
+      WRITE:
+      - write1
+      - write2
+      - write3
+      - write4
+      - write5
+      - write6
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    - baseline-spinnaker
+    - spinnaker
+    - dev-spinnaker
+    - stg-spinnaker
+    - qa-spinnaker
+    - demo-spinnaker
+    - demo2-spin
+    - stg2-spin
+    - dev2-spin
+    - dev3-spin
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    kubeconfigContents: kubeconfigContents
+    kubectlExecutable: kubectlExecutable
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+    namingStrategy: kubernetesAnnotations
+    debug: false
+    metrics: true
+    checkPermissionsOnStartup: true
+  - name: k8s-acc-108
+    requiredGroupMembership: []
+    permissions:
+      READ:
+      - read1
+      - read2
+      - read3
+      - read4
+      - read5
+      - read6
+      WRITE:
+      - write1
+      - write2
+      - write3
+      - write4
+      - write5
+      - write6
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    - baseline-spinnaker
+    - spinnaker
+    - dev-spinnaker
+    - stg-spinnaker
+    - qa-spinnaker
+    - demo-spinnaker
+    - demo2-spin
+    - stg2-spin
+    - dev2-spin
+    - dev3-spin
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    kubeconfigContents: kubeconfigContents
+    kubectlExecutable: kubectlExecutable
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+    namingStrategy: kubernetesAnnotations
+    debug: false
+    metrics: true
+    checkPermissionsOnStartup: true
+  - name: k8s-acc-109
+    requiredGroupMembership: []
+    permissions:
+      READ:
+      - read1
+      - read2
+      - read3
+      - read4
+      - read5
+      - read6
+      WRITE:
+      - write1
+      - write2
+      - write3
+      - write4
+      - write5
+      - write6
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    - baseline-spinnaker
+    - spinnaker
+    - dev-spinnaker
+    - stg-spinnaker
+    - qa-spinnaker
+    - demo-spinnaker
+    - demo2-spin
+    - stg2-spin
+    - dev2-spin
+    - dev3-spin
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    kubeconfigContents: kubeconfigContents
+    kubectlExecutable: kubectlExecutable
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+    namingStrategy: kubernetesAnnotations
+    debug: false
+    metrics: true
+    checkPermissionsOnStartup: true
+  - name: k8s-acc-110
+    requiredGroupMembership: []
+    permissions:
+      READ:
+      - read1
+      - read2
+      - read3
+      - read4
+      - read5
+      - read6
+      WRITE:
+      - write1
+      - write2
+      - write3
+      - write4
+      - write5
+      - write6
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    - baseline-spinnaker
+    - spinnaker
+    - dev-spinnaker
+    - stg-spinnaker
+    - qa-spinnaker
+    - demo-spinnaker
+    - demo2-spin
+    - stg2-spin
+    - dev2-spin
+    - dev3-spin
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    kubeconfigContents: kubeconfigContents
+    kubectlExecutable: kubectlExecutable
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+    namingStrategy: kubernetesAnnotations
+    debug: false
+    metrics: true
+    checkPermissionsOnStartup: true
+  - name: k8s-acc-111
+    requiredGroupMembership: []
+    permissions:
+      READ:
+      - read1
+      - read2
+      - read3
+      - read4
+      - read5
+      - read6
+      WRITE:
+      - write1
+      - write2
+      - write3
+      - write4
+      - write5
+      - write6
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    - baseline-spinnaker
+    - spinnaker
+    - dev-spinnaker
+    - stg-spinnaker
+    - qa-spinnaker
+    - demo-spinnaker
+    - demo2-spin
+    - stg2-spin
+    - dev2-spin
+    - dev3-spin
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    kubeconfigContents: kubeconfigContents
+    kubectlExecutable: kubectlExecutable
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+    namingStrategy: kubernetesAnnotations
+    debug: false
+    metrics: true
+    checkPermissionsOnStartup: true
+  - name: k8s-acc-112
+    requiredGroupMembership: []
+    permissions:
+      READ:
+      - read1
+      - read2
+      - read3
+      - read4
+      - read5
+      - read6
+      WRITE:
+      - write1
+      - write2
+      - write3
+      - write4
+      - write5
+      - write6
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    - baseline-spinnaker
+    - spinnaker
+    - dev-spinnaker
+    - stg-spinnaker
+    - qa-spinnaker
+    - demo-spinnaker
+    - demo2-spin
+    - stg2-spin
+    - dev2-spin
+    - dev3-spin
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    kubeconfigContents: kubeconfigContents
+    kubectlExecutable: kubectlExecutable
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+    namingStrategy: kubernetesAnnotations
+    debug: false
+    metrics: true
+    checkPermissionsOnStartup: true
+  - name: k8s-acc-113
+    requiredGroupMembership: []
+    permissions:
+      READ:
+      - read1
+      - read2
+      - read3
+      - read4
+      - read5
+      - read6
+      WRITE:
+      - write1
+      - write2
+      - write3
+      - write4
+      - write5
+      - write6
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    - baseline-spinnaker
+    - spinnaker
+    - dev-spinnaker
+    - stg-spinnaker
+    - qa-spinnaker
+    - demo-spinnaker
+    - demo2-spin
+    - stg2-spin
+    - dev2-spin
+    - dev3-spin
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    kubeconfigContents: kubeconfigContents
+    kubectlExecutable: kubectlExecutable
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+    namingStrategy: kubernetesAnnotations
+    debug: false
+    metrics: true
+    checkPermissionsOnStartup: true
+  - name: k8s-acc-114
+    requiredGroupMembership: []
+    permissions:
+      READ:
+      - read1
+      - read2
+      - read3
+      - read4
+      - read5
+      - read6
+      WRITE:
+      - write1
+      - write2
+      - write3
+      - write4
+      - write5
+      - write6
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    - baseline-spinnaker
+    - spinnaker
+    - dev-spinnaker
+    - stg-spinnaker
+    - qa-spinnaker
+    - demo-spinnaker
+    - demo2-spin
+    - stg2-spin
+    - dev2-spin
+    - dev3-spin
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    kubeconfigContents: kubeconfigContents
+    kubectlExecutable: kubectlExecutable
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+    namingStrategy: kubernetesAnnotations
+    debug: false
+    metrics: true
+    checkPermissionsOnStartup: true
+  - name: k8s-acc-115
+    requiredGroupMembership: []
+    permissions:
+      READ:
+      - read1
+      - read2
+      - read3
+      - read4
+      - read5
+      - read6
+      WRITE:
+      - write1
+      - write2
+      - write3
+      - write4
+      - write5
+      - write6
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    - baseline-spinnaker
+    - spinnaker
+    - dev-spinnaker
+    - stg-spinnaker
+    - qa-spinnaker
+    - demo-spinnaker
+    - demo2-spin
+    - stg2-spin
+    - dev2-spin
+    - dev3-spin
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    kubeconfigContents: kubeconfigContents
+    kubectlExecutable: kubectlExecutable
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+    namingStrategy: kubernetesAnnotations
+    debug: false
+    metrics: true
+    checkPermissionsOnStartup: true
+  - name: k8s-acc-116
+    requiredGroupMembership: []
+    permissions:
+      READ:
+      - read1
+      - read2
+      - read3
+      - read4
+      - read5
+      - read6
+      WRITE:
+      - write1
+      - write2
+      - write3
+      - write4
+      - write5
+      - write6
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    - baseline-spinnaker
+    - spinnaker
+    - dev-spinnaker
+    - stg-spinnaker
+    - qa-spinnaker
+    - demo-spinnaker
+    - demo2-spin
+    - stg2-spin
+    - dev2-spin
+    - dev3-spin
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    kubeconfigContents: kubeconfigContents
+    kubectlExecutable: kubectlExecutable
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+    namingStrategy: kubernetesAnnotations
+    debug: false
+    metrics: true
+    checkPermissionsOnStartup: true
+  - name: k8s-acc-117
+    requiredGroupMembership: []
+    permissions:
+      READ:
+      - read1
+      - read2
+      - read3
+      - read4
+      - read5
+      - read6
+      WRITE:
+      - write1
+      - write2
+      - write3
+      - write4
+      - write5
+      - write6
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    - baseline-spinnaker
+    - spinnaker
+    - dev-spinnaker
+    - stg-spinnaker
+    - qa-spinnaker
+    - demo-spinnaker
+    - demo2-spin
+    - stg2-spin
+    - dev2-spin
+    - dev3-spin
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    kubeconfigContents: kubeconfigContents
+    kubectlExecutable: kubectlExecutable
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+    namingStrategy: kubernetesAnnotations
+    debug: false
+    metrics: true
+    checkPermissionsOnStartup: true
+  - name: k8s-acc-118
+    requiredGroupMembership: []
+    permissions:
+      READ:
+      - read1
+      - read2
+      - read3
+      - read4
+      - read5
+      - read6
+      WRITE:
+      - write1
+      - write2
+      - write3
+      - write4
+      - write5
+      - write6
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    - baseline-spinnaker
+    - spinnaker
+    - dev-spinnaker
+    - stg-spinnaker
+    - qa-spinnaker
+    - demo-spinnaker
+    - demo2-spin
+    - stg2-spin
+    - dev2-spin
+    - dev3-spin
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    kubeconfigContents: kubeconfigContents
+    kubectlExecutable: kubectlExecutable
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+    namingStrategy: kubernetesAnnotations
+    debug: false
+    metrics: true
+    checkPermissionsOnStartup: true
+  - name: k8s-acc-119
+    requiredGroupMembership: []
+    permissions:
+      READ:
+      - read1
+      - read2
+      - read3
+      - read4
+      - read5
+      - read6
+      WRITE:
+      - write1
+      - write2
+      - write3
+      - write4
+      - write5
+      - write6
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    - baseline-spinnaker
+    - spinnaker
+    - dev-spinnaker
+    - stg-spinnaker
+    - qa-spinnaker
+    - demo-spinnaker
+    - demo2-spin
+    - stg2-spin
+    - dev2-spin
+    - dev3-spin
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    kubeconfigContents: kubeconfigContents
+    kubectlExecutable: kubectlExecutable
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+    namingStrategy: kubernetesAnnotations
+    debug: false
+    metrics: true
+    checkPermissionsOnStartup: true
+  - name: k8s-acc-120
+    requiredGroupMembership: []
+    permissions:
+      READ:
+      - read1
+      - read2
+      - read3
+      - read4
+      - read5
+      - read6
+      WRITE:
+      - write1
+      - write2
+      - write3
+      - write4
+      - write5
+      - write6
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    - baseline-spinnaker
+    - spinnaker
+    - dev-spinnaker
+    - stg-spinnaker
+    - qa-spinnaker
+    - demo-spinnaker
+    - demo2-spin
+    - stg2-spin
+    - dev2-spin
+    - dev3-spin
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    kubeconfigContents: kubeconfigContents
+    kubectlExecutable: kubectlExecutable
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+    namingStrategy: kubernetesAnnotations
+    debug: false
+    metrics: true
+    checkPermissionsOnStartup: true
+  - name: k8s-acc-121
+    requiredGroupMembership: []
+    permissions:
+      READ:
+      - read1
+      - read2
+      - read3
+      - read4
+      - read5
+      - read6
+      WRITE:
+      - write1
+      - write2
+      - write3
+      - write4
+      - write5
+      - write6
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    - baseline-spinnaker
+    - spinnaker
+    - dev-spinnaker
+    - stg-spinnaker
+    - qa-spinnaker
+    - demo-spinnaker
+    - demo2-spin
+    - stg2-spin
+    - dev2-spin
+    - dev3-spin
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    kubeconfigContents: kubeconfigContents
+    kubectlExecutable: kubectlExecutable
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+    namingStrategy: kubernetesAnnotations
+    debug: false
+    metrics: true
+    checkPermissionsOnStartup: true
+  - name: k8s-acc-122
+    requiredGroupMembership: []
+    permissions:
+      READ:
+      - read1
+      - read2
+      - read3
+      - read4
+      - read5
+      - read6
+      WRITE:
+      - write1
+      - write2
+      - write3
+      - write4
+      - write5
+      - write6
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    - baseline-spinnaker
+    - spinnaker
+    - dev-spinnaker
+    - stg-spinnaker
+    - qa-spinnaker
+    - demo-spinnaker
+    - demo2-spin
+    - stg2-spin
+    - dev2-spin
+    - dev3-spin
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    kubeconfigContents: kubeconfigContents
+    kubectlExecutable: kubectlExecutable
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+    namingStrategy: kubernetesAnnotations
+    debug: false
+    metrics: true
+    checkPermissionsOnStartup: true
+  - name: k8s-acc-123
+    requiredGroupMembership: []
+    permissions:
+      READ:
+      - read1
+      - read2
+      - read3
+      - read4
+      - read5
+      - read6
+      WRITE:
+      - write1
+      - write2
+      - write3
+      - write4
+      - write5
+      - write6
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    - baseline-spinnaker
+    - spinnaker
+    - dev-spinnaker
+    - stg-spinnaker
+    - qa-spinnaker
+    - demo-spinnaker
+    - demo2-spin
+    - stg2-spin
+    - dev2-spin
+    - dev3-spin
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    kubeconfigContents: kubeconfigContents
+    kubectlExecutable: kubectlExecutable
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+    namingStrategy: kubernetesAnnotations
+    debug: false
+    metrics: true
+    checkPermissionsOnStartup: true
+  - name: k8s-acc-124
+    requiredGroupMembership: []
+    permissions:
+      READ:
+      - read1
+      - read2
+      - read3
+      - read4
+      - read5
+      - read6
+      WRITE:
+      - write1
+      - write2
+      - write3
+      - write4
+      - write5
+      - write6
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    - baseline-spinnaker
+    - spinnaker
+    - dev-spinnaker
+    - stg-spinnaker
+    - qa-spinnaker
+    - demo-spinnaker
+    - demo2-spin
+    - stg2-spin
+    - dev2-spin
+    - dev3-spin
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    kubeconfigContents: kubeconfigContents
+    kubectlExecutable: kubectlExecutable
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+    namingStrategy: kubernetesAnnotations
+    debug: false
+    metrics: true
+    checkPermissionsOnStartup: true
+  - name: k8s-acc-125
+    requiredGroupMembership: []
+    permissions:
+      READ:
+      - read1
+      - read2
+      - read3
+      - read4
+      - read5
+      - read6
+      WRITE:
+      - write1
+      - write2
+      - write3
+      - write4
+      - write5
+      - write6
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    - baseline-spinnaker
+    - spinnaker
+    - dev-spinnaker
+    - stg-spinnaker
+    - qa-spinnaker
+    - demo-spinnaker
+    - demo2-spin
+    - stg2-spin
+    - dev2-spin
+    - dev3-spin
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    kubeconfigContents: kubeconfigContents
+    kubectlExecutable: kubectlExecutable
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+    namingStrategy: kubernetesAnnotations
+    debug: false
+    metrics: true
+    checkPermissionsOnStartup: true
+  - name: k8s-acc-126
+    requiredGroupMembership: []
+    permissions:
+      READ:
+      - read1
+      - read2
+      - read3
+      - read4
+      - read5
+      - read6
+      WRITE:
+      - write1
+      - write2
+      - write3
+      - write4
+      - write5
+      - write6
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    - baseline-spinnaker
+    - spinnaker
+    - dev-spinnaker
+    - stg-spinnaker
+    - qa-spinnaker
+    - demo-spinnaker
+    - demo2-spin
+    - stg2-spin
+    - dev2-spin
+    - dev3-spin
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    kubeconfigContents: kubeconfigContents
+    kubectlExecutable: kubectlExecutable
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+    namingStrategy: kubernetesAnnotations
+    debug: false
+    metrics: true
+    checkPermissionsOnStartup: true
+  - name: k8s-acc-127
+    requiredGroupMembership: []
+    permissions:
+      READ:
+      - read1
+      - read2
+      - read3
+      - read4
+      - read5
+      - read6
+      WRITE:
+      - write1
+      - write2
+      - write3
+      - write4
+      - write5
+      - write6
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    - baseline-spinnaker
+    - spinnaker
+    - dev-spinnaker
+    - stg-spinnaker
+    - qa-spinnaker
+    - demo-spinnaker
+    - demo2-spin
+    - stg2-spin
+    - dev2-spin
+    - dev3-spin
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    kubeconfigContents: kubeconfigContents
+    kubectlExecutable: kubectlExecutable
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+    namingStrategy: kubernetesAnnotations
+    debug: false
+    metrics: true
+    checkPermissionsOnStartup: true
+  - name: k8s-acc-128
+    requiredGroupMembership: []
+    permissions:
+      READ:
+      - read1
+      - read2
+      - read3
+      - read4
+      - read5
+      - read6
+      WRITE:
+      - write1
+      - write2
+      - write3
+      - write4
+      - write5
+      - write6
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    - baseline-spinnaker
+    - spinnaker
+    - dev-spinnaker
+    - stg-spinnaker
+    - qa-spinnaker
+    - demo-spinnaker
+    - demo2-spin
+    - stg2-spin
+    - dev2-spin
+    - dev3-spin
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    kubeconfigContents: kubeconfigContents
+    kubectlExecutable: kubectlExecutable
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+    namingStrategy: kubernetesAnnotations
+    debug: false
+    metrics: true
+    checkPermissionsOnStartup: true
+  - name: k8s-acc-129
+    requiredGroupMembership: []
+    permissions:
+      READ:
+      - read1
+      - read2
+      - read3
+      - read4
+      - read5
+      - read6
+      WRITE:
+      - write1
+      - write2
+      - write3
+      - write4
+      - write5
+      - write6
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    - baseline-spinnaker
+    - spinnaker
+    - dev-spinnaker
+    - stg-spinnaker
+    - qa-spinnaker
+    - demo-spinnaker
+    - demo2-spin
+    - stg2-spin
+    - dev2-spin
+    - dev3-spin
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    kubeconfigContents: kubeconfigContents
+    kubectlExecutable: kubectlExecutable
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+    namingStrategy: kubernetesAnnotations
+    debug: false
+    metrics: true
+    checkPermissionsOnStartup: true
+  - name: k8s-acc-130
+    requiredGroupMembership: []
+    permissions:
+      READ:
+      - read1
+      - read2
+      - read3
+      - read4
+      - read5
+      - read6
+      WRITE:
+      - write1
+      - write2
+      - write3
+      - write4
+      - write5
+      - write6
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    - baseline-spinnaker
+    - spinnaker
+    - dev-spinnaker
+    - stg-spinnaker
+    - qa-spinnaker
+    - demo-spinnaker
+    - demo2-spin
+    - stg2-spin
+    - dev2-spin
+    - dev3-spin
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    kubeconfigContents: kubeconfigContents
+    kubectlExecutable: kubectlExecutable
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+    namingStrategy: kubernetesAnnotations
+    debug: false
+    metrics: true
+    checkPermissionsOnStartup: true
+  - name: k8s-acc-131
+    requiredGroupMembership: []
+    permissions:
+      READ:
+      - read1
+      - read2
+      - read3
+      - read4
+      - read5
+      - read6
+      WRITE:
+      - write1
+      - write2
+      - write3
+      - write4
+      - write5
+      - write6
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    - baseline-spinnaker
+    - spinnaker
+    - dev-spinnaker
+    - stg-spinnaker
+    - qa-spinnaker
+    - demo-spinnaker
+    - demo2-spin
+    - stg2-spin
+    - dev2-spin
+    - dev3-spin
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    kubeconfigContents: kubeconfigContents
+    kubectlExecutable: kubectlExecutable
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+    namingStrategy: kubernetesAnnotations
+    debug: false
+    metrics: true
+    checkPermissionsOnStartup: true
+  - name: k8s-acc-132
+    requiredGroupMembership: []
+    permissions:
+      READ:
+      - read1
+      - read2
+      - read3
+      - read4
+      - read5
+      - read6
+      WRITE:
+      - write1
+      - write2
+      - write3
+      - write4
+      - write5
+      - write6
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    - baseline-spinnaker
+    - spinnaker
+    - dev-spinnaker
+    - stg-spinnaker
+    - qa-spinnaker
+    - demo-spinnaker
+    - demo2-spin
+    - stg2-spin
+    - dev2-spin
+    - dev3-spin
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    kubeconfigContents: kubeconfigContents
+    kubectlExecutable: kubectlExecutable
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+    namingStrategy: kubernetesAnnotations
+    debug: false
+    metrics: true
+    checkPermissionsOnStartup: true
+  - name: k8s-acc-133
+    requiredGroupMembership: []
+    permissions:
+      READ:
+      - read1
+      - read2
+      - read3
+      - read4
+      - read5
+      - read6
+      WRITE:
+      - write1
+      - write2
+      - write3
+      - write4
+      - write5
+      - write6
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    - baseline-spinnaker
+    - spinnaker
+    - dev-spinnaker
+    - stg-spinnaker
+    - qa-spinnaker
+    - demo-spinnaker
+    - demo2-spin
+    - stg2-spin
+    - dev2-spin
+    - dev3-spin
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    kubeconfigContents: kubeconfigContents
+    kubectlExecutable: kubectlExecutable
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+    namingStrategy: kubernetesAnnotations
+    debug: false
+    metrics: true
+    checkPermissionsOnStartup: true
+  - name: k8s-acc-134
+    requiredGroupMembership: []
+    permissions:
+      READ:
+      - read1
+      - read2
+      - read3
+      - read4
+      - read5
+      - read6
+      WRITE:
+      - write1
+      - write2
+      - write3
+      - write4
+      - write5
+      - write6
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    - baseline-spinnaker
+    - spinnaker
+    - dev-spinnaker
+    - stg-spinnaker
+    - qa-spinnaker
+    - demo-spinnaker
+    - demo2-spin
+    - stg2-spin
+    - dev2-spin
+    - dev3-spin
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    kubeconfigContents: kubeconfigContents
+    kubectlExecutable: kubectlExecutable
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+    namingStrategy: kubernetesAnnotations
+    debug: false
+    metrics: true
+    checkPermissionsOnStartup: true
+  - name: k8s-acc-135
+    requiredGroupMembership: []
+    permissions:
+      READ:
+      - read1
+      - read2
+      - read3
+      - read4
+      - read5
+      - read6
+      WRITE:
+      - write1
+      - write2
+      - write3
+      - write4
+      - write5
+      - write6
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    - baseline-spinnaker
+    - spinnaker
+    - dev-spinnaker
+    - stg-spinnaker
+    - qa-spinnaker
+    - demo-spinnaker
+    - demo2-spin
+    - stg2-spin
+    - dev2-spin
+    - dev3-spin
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    kubeconfigContents: kubeconfigContents
+    kubectlExecutable: kubectlExecutable
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+    namingStrategy: kubernetesAnnotations
+    debug: false
+    metrics: true
+    checkPermissionsOnStartup: true
+  - name: k8s-acc-136
+    requiredGroupMembership: []
+    permissions:
+      READ:
+      - read1
+      - read2
+      - read3
+      - read4
+      - read5
+      - read6
+      WRITE:
+      - write1
+      - write2
+      - write3
+      - write4
+      - write5
+      - write6
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    - baseline-spinnaker
+    - spinnaker
+    - dev-spinnaker
+    - stg-spinnaker
+    - qa-spinnaker
+    - demo-spinnaker
+    - demo2-spin
+    - stg2-spin
+    - dev2-spin
+    - dev3-spin
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    kubeconfigContents: kubeconfigContents
+    kubectlExecutable: kubectlExecutable
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+    namingStrategy: kubernetesAnnotations
+    debug: false
+    metrics: true
+    checkPermissionsOnStartup: true
+  - name: k8s-acc-137
+    requiredGroupMembership: []
+    permissions:
+      READ:
+      - read1
+      - read2
+      - read3
+      - read4
+      - read5
+      - read6
+      WRITE:
+      - write1
+      - write2
+      - write3
+      - write4
+      - write5
+      - write6
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    - baseline-spinnaker
+    - spinnaker
+    - dev-spinnaker
+    - stg-spinnaker
+    - qa-spinnaker
+    - demo-spinnaker
+    - demo2-spin
+    - stg2-spin
+    - dev2-spin
+    - dev3-spin
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    kubeconfigContents: kubeconfigContents
+    kubectlExecutable: kubectlExecutable
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+    namingStrategy: kubernetesAnnotations
+    debug: false
+    metrics: true
+    checkPermissionsOnStartup: true
+  - name: k8s-acc-138
+    requiredGroupMembership: []
+    permissions:
+      READ:
+      - read1
+      - read2
+      - read3
+      - read4
+      - read5
+      - read6
+      WRITE:
+      - write1
+      - write2
+      - write3
+      - write4
+      - write5
+      - write6
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    - baseline-spinnaker
+    - spinnaker
+    - dev-spinnaker
+    - stg-spinnaker
+    - qa-spinnaker
+    - demo-spinnaker
+    - demo2-spin
+    - stg2-spin
+    - dev2-spin
+    - dev3-spin
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    kubeconfigContents: kubeconfigContents
+    kubectlExecutable: kubectlExecutable
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+    namingStrategy: kubernetesAnnotations
+    debug: false
+    metrics: true
+    checkPermissionsOnStartup: true
+  - name: k8s-acc-139
+    requiredGroupMembership: []
+    permissions:
+      READ:
+      - read1
+      - read2
+      - read3
+      - read4
+      - read5
+      - read6
+      WRITE:
+      - write1
+      - write2
+      - write3
+      - write4
+      - write5
+      - write6
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    - baseline-spinnaker
+    - spinnaker
+    - dev-spinnaker
+    - stg-spinnaker
+    - qa-spinnaker
+    - demo-spinnaker
+    - demo2-spin
+    - stg2-spin
+    - dev2-spin
+    - dev3-spin
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    kubeconfigContents: kubeconfigContents
+    kubectlExecutable: kubectlExecutable
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+    namingStrategy: kubernetesAnnotations
+    debug: false
+    metrics: true
+    checkPermissionsOnStartup: true
+  - name: k8s-acc-140
+    requiredGroupMembership: []
+    permissions:
+      READ:
+      - read1
+      - read2
+      - read3
+      - read4
+      - read5
+      - read6
+      WRITE:
+      - write1
+      - write2
+      - write3
+      - write4
+      - write5
+      - write6
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    - baseline-spinnaker
+    - spinnaker
+    - dev-spinnaker
+    - stg-spinnaker
+    - qa-spinnaker
+    - demo-spinnaker
+    - demo2-spin
+    - stg2-spin
+    - dev2-spin
+    - dev3-spin
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    kubeconfigContents: kubeconfigContents
+    kubectlExecutable: kubectlExecutable
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+    namingStrategy: kubernetesAnnotations
+    debug: false
+    metrics: true
+    checkPermissionsOnStartup: true
+  - name: k8s-acc-141
+    requiredGroupMembership: []
+    permissions:
+      READ:
+      - read1
+      - read2
+      - read3
+      - read4
+      - read5
+      - read6
+      WRITE:
+      - write1
+      - write2
+      - write3
+      - write4
+      - write5
+      - write6
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    - baseline-spinnaker
+    - spinnaker
+    - dev-spinnaker
+    - stg-spinnaker
+    - qa-spinnaker
+    - demo-spinnaker
+    - demo2-spin
+    - stg2-spin
+    - dev2-spin
+    - dev3-spin
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    kubeconfigContents: kubeconfigContents
+    kubectlExecutable: kubectlExecutable
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+    namingStrategy: kubernetesAnnotations
+    debug: false
+    metrics: true
+    checkPermissionsOnStartup: true
+  - name: k8s-acc-142
+    requiredGroupMembership: []
+    permissions:
+      READ:
+      - read1
+      - read2
+      - read3
+      - read4
+      - read5
+      - read6
+      WRITE:
+      - write1
+      - write2
+      - write3
+      - write4
+      - write5
+      - write6
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    - baseline-spinnaker
+    - spinnaker
+    - dev-spinnaker
+    - stg-spinnaker
+    - qa-spinnaker
+    - demo-spinnaker
+    - demo2-spin
+    - stg2-spin
+    - dev2-spin
+    - dev3-spin
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    kubeconfigContents: kubeconfigContents
+    kubectlExecutable: kubectlExecutable
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+    namingStrategy: kubernetesAnnotations
+    debug: false
+    metrics: true
+    checkPermissionsOnStartup: true
+  - name: k8s-acc-143
+    requiredGroupMembership: []
+    permissions:
+      READ:
+      - read1
+      - read2
+      - read3
+      - read4
+      - read5
+      - read6
+      WRITE:
+      - write1
+      - write2
+      - write3
+      - write4
+      - write5
+      - write6
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    - baseline-spinnaker
+    - spinnaker
+    - dev-spinnaker
+    - stg-spinnaker
+    - qa-spinnaker
+    - demo-spinnaker
+    - demo2-spin
+    - stg2-spin
+    - dev2-spin
+    - dev3-spin
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    kubeconfigContents: kubeconfigContents
+    kubectlExecutable: kubectlExecutable
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+    namingStrategy: kubernetesAnnotations
+    debug: false
+    metrics: true
+    checkPermissionsOnStartup: true
+  - name: k8s-acc-144
+    requiredGroupMembership: []
+    permissions:
+      READ:
+      - read1
+      - read2
+      - read3
+      - read4
+      - read5
+      - read6
+      WRITE:
+      - write1
+      - write2
+      - write3
+      - write4
+      - write5
+      - write6
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    - baseline-spinnaker
+    - spinnaker
+    - dev-spinnaker
+    - stg-spinnaker
+    - qa-spinnaker
+    - demo-spinnaker
+    - demo2-spin
+    - stg2-spin
+    - dev2-spin
+    - dev3-spin
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    kubeconfigContents: kubeconfigContents
+    kubectlExecutable: kubectlExecutable
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+    namingStrategy: kubernetesAnnotations
+    debug: false
+    metrics: true
+    checkPermissionsOnStartup: true
+  - name: k8s-acc-145
+    requiredGroupMembership: []
+    permissions:
+      READ:
+      - read1
+      - read2
+      - read3
+      - read4
+      - read5
+      - read6
+      WRITE:
+      - write1
+      - write2
+      - write3
+      - write4
+      - write5
+      - write6
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    - baseline-spinnaker
+    - spinnaker
+    - dev-spinnaker
+    - stg-spinnaker
+    - qa-spinnaker
+    - demo-spinnaker
+    - demo2-spin
+    - stg2-spin
+    - dev2-spin
+    - dev3-spin
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    kubeconfigContents: kubeconfigContents
+    kubectlExecutable: kubectlExecutable
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+    namingStrategy: kubernetesAnnotations
+    debug: false
+    metrics: true
+    checkPermissionsOnStartup: true
+  - name: k8s-acc-146
+    requiredGroupMembership: []
+    permissions:
+      READ:
+      - read1
+      - read2
+      - read3
+      - read4
+      - read5
+      - read6
+      WRITE:
+      - write1
+      - write2
+      - write3
+      - write4
+      - write5
+      - write6
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    - baseline-spinnaker
+    - spinnaker
+    - dev-spinnaker
+    - stg-spinnaker
+    - qa-spinnaker
+    - demo-spinnaker
+    - demo2-spin
+    - stg2-spin
+    - dev2-spin
+    - dev3-spin
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    kubeconfigContents: kubeconfigContents
+    kubectlExecutable: kubectlExecutable
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+    namingStrategy: kubernetesAnnotations
+    debug: false
+    metrics: true
+    checkPermissionsOnStartup: true
+  - name: k8s-acc-147
+    requiredGroupMembership: []
+    permissions:
+      READ:
+      - read1
+      - read2
+      - read3
+      - read4
+      - read5
+      - read6
+      WRITE:
+      - write1
+      - write2
+      - write3
+      - write4
+      - write5
+      - write6
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    - baseline-spinnaker
+    - spinnaker
+    - dev-spinnaker
+    - stg-spinnaker
+    - qa-spinnaker
+    - demo-spinnaker
+    - demo2-spin
+    - stg2-spin
+    - dev2-spin
+    - dev3-spin
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    kubeconfigContents: kubeconfigContents
+    kubectlExecutable: kubectlExecutable
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+    namingStrategy: kubernetesAnnotations
+    debug: false
+    metrics: true
+    checkPermissionsOnStartup: true
+  - name: k8s-acc-148
+    requiredGroupMembership: []
+    permissions:
+      READ:
+      - read1
+      - read2
+      - read3
+      - read4
+      - read5
+      - read6
+      WRITE:
+      - write1
+      - write2
+      - write3
+      - write4
+      - write5
+      - write6
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    - baseline-spinnaker
+    - spinnaker
+    - dev-spinnaker
+    - stg-spinnaker
+    - qa-spinnaker
+    - demo-spinnaker
+    - demo2-spin
+    - stg2-spin
+    - dev2-spin
+    - dev3-spin
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    kubeconfigContents: kubeconfigContents
+    kubectlExecutable: kubectlExecutable
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+    namingStrategy: kubernetesAnnotations
+    debug: false
+    metrics: true
+    checkPermissionsOnStartup: true
+  - name: k8s-acc-149
+    requiredGroupMembership: []
+    permissions:
+      READ:
+      - read1
+      - read2
+      - read3
+      - read4
+      - read5
+      - read6
+      WRITE:
+      - write1
+      - write2
+      - write3
+      - write4
+      - write5
+      - write6
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    - baseline-spinnaker
+    - spinnaker
+    - dev-spinnaker
+    - stg-spinnaker
+    - qa-spinnaker
+    - demo-spinnaker
+    - demo2-spin
+    - stg2-spin
+    - dev2-spin
+    - dev3-spin
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    kubeconfigContents: kubeconfigContents
+    kubectlExecutable: kubectlExecutable
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+    namingStrategy: kubernetesAnnotations
+    debug: false
+    metrics: true
+    checkPermissionsOnStartup: true
+  - name: k8s-acc-150
+    requiredGroupMembership: []
+    permissions:
+      READ:
+      - read1
+      - read2
+      - read3
+      - read4
+      - read5
+      - read6
+      WRITE:
+      - write1
+      - write2
+      - write3
+      - write4
+      - write5
+      - write6
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    - baseline-spinnaker
+    - spinnaker
+    - dev-spinnaker
+    - stg-spinnaker
+    - qa-spinnaker
+    - demo-spinnaker
+    - demo2-spin
+    - stg2-spin
+    - dev2-spin
+    - dev3-spin
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    kubeconfigContents: kubeconfigContents
+    kubectlExecutable: kubectlExecutable
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+    namingStrategy: kubernetesAnnotations
+    debug: false
+    metrics: true
+    checkPermissionsOnStartup: true
+  - name: k8s-acc-151
+    requiredGroupMembership: []
+    permissions:
+      READ:
+      - read1
+      - read2
+      - read3
+      - read4
+      - read5
+      - read6
+      WRITE:
+      - write1
+      - write2
+      - write3
+      - write4
+      - write5
+      - write6
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    - baseline-spinnaker
+    - spinnaker
+    - dev-spinnaker
+    - stg-spinnaker
+    - qa-spinnaker
+    - demo-spinnaker
+    - demo2-spin
+    - stg2-spin
+    - dev2-spin
+    - dev3-spin
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    kubeconfigContents: kubeconfigContents
+    kubectlExecutable: kubectlExecutable
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+    namingStrategy: kubernetesAnnotations
+    debug: false
+    metrics: true
+    checkPermissionsOnStartup: true
+  - name: k8s-acc-152
+    requiredGroupMembership: []
+    permissions:
+      READ:
+      - read1
+      - read2
+      - read3
+      - read4
+      - read5
+      - read6
+      WRITE:
+      - write1
+      - write2
+      - write3
+      - write4
+      - write5
+      - write6
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    - baseline-spinnaker
+    - spinnaker
+    - dev-spinnaker
+    - stg-spinnaker
+    - qa-spinnaker
+    - demo-spinnaker
+    - demo2-spin
+    - stg2-spin
+    - dev2-spin
+    - dev3-spin
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    kubeconfigContents: kubeconfigContents
+    kubectlExecutable: kubectlExecutable
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+    namingStrategy: kubernetesAnnotations
+    debug: false
+    metrics: true
+    checkPermissionsOnStartup: true
+  - name: k8s-acc-153
+    requiredGroupMembership: []
+    permissions:
+      READ:
+      - read1
+      - read2
+      - read3
+      - read4
+      - read5
+      - read6
+      WRITE:
+      - write1
+      - write2
+      - write3
+      - write4
+      - write5
+      - write6
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    - baseline-spinnaker
+    - spinnaker
+    - dev-spinnaker
+    - stg-spinnaker
+    - qa-spinnaker
+    - demo-spinnaker
+    - demo2-spin
+    - stg2-spin
+    - dev2-spin
+    - dev3-spin
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    kubeconfigContents: kubeconfigContents
+    kubectlExecutable: kubectlExecutable
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+    namingStrategy: kubernetesAnnotations
+    debug: false
+    metrics: true
+    checkPermissionsOnStartup: true
+  - name: k8s-acc-154
+    requiredGroupMembership: []
+    permissions:
+      READ:
+      - read1
+      - read2
+      - read3
+      - read4
+      - read5
+      - read6
+      WRITE:
+      - write1
+      - write2
+      - write3
+      - write4
+      - write5
+      - write6
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    - baseline-spinnaker
+    - spinnaker
+    - dev-spinnaker
+    - stg-spinnaker
+    - qa-spinnaker
+    - demo-spinnaker
+    - demo2-spin
+    - stg2-spin
+    - dev2-spin
+    - dev3-spin
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    kubeconfigContents: kubeconfigContents
+    kubectlExecutable: kubectlExecutable
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+    namingStrategy: kubernetesAnnotations
+    debug: false
+    metrics: true
+    checkPermissionsOnStartup: true
+  - name: k8s-acc-155
+    requiredGroupMembership: []
+    permissions:
+      READ:
+      - read1
+      - read2
+      - read3
+      - read4
+      - read5
+      - read6
+      WRITE:
+      - write1
+      - write2
+      - write3
+      - write4
+      - write5
+      - write6
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    - baseline-spinnaker
+    - spinnaker
+    - dev-spinnaker
+    - stg-spinnaker
+    - qa-spinnaker
+    - demo-spinnaker
+    - demo2-spin
+    - stg2-spin
+    - dev2-spin
+    - dev3-spin
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    kubeconfigContents: kubeconfigContents
+    kubectlExecutable: kubectlExecutable
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+    namingStrategy: kubernetesAnnotations
+    debug: false
+    metrics: true
+    checkPermissionsOnStartup: true
+  - name: k8s-acc-156
+    requiredGroupMembership: []
+    permissions:
+      READ:
+      - read1
+      - read2
+      - read3
+      - read4
+      - read5
+      - read6
+      WRITE:
+      - write1
+      - write2
+      - write3
+      - write4
+      - write5
+      - write6
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    - baseline-spinnaker
+    - spinnaker
+    - dev-spinnaker
+    - stg-spinnaker
+    - qa-spinnaker
+    - demo-spinnaker
+    - demo2-spin
+    - stg2-spin
+    - dev2-spin
+    - dev3-spin
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    kubeconfigContents: kubeconfigContents
+    kubectlExecutable: kubectlExecutable
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+    namingStrategy: kubernetesAnnotations
+    debug: false
+    metrics: true
+    checkPermissionsOnStartup: true
+  - name: k8s-acc-157
+    requiredGroupMembership: []
+    permissions:
+      READ:
+      - read1
+      - read2
+      - read3
+      - read4
+      - read5
+      - read6
+      WRITE:
+      - write1
+      - write2
+      - write3
+      - write4
+      - write5
+      - write6
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    - baseline-spinnaker
+    - spinnaker
+    - dev-spinnaker
+    - stg-spinnaker
+    - qa-spinnaker
+    - demo-spinnaker
+    - demo2-spin
+    - stg2-spin
+    - dev2-spin
+    - dev3-spin
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    kubeconfigContents: kubeconfigContents
+    kubectlExecutable: kubectlExecutable
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+    namingStrategy: kubernetesAnnotations
+    debug: false
+    metrics: true
+    checkPermissionsOnStartup: true
+  - name: k8s-acc-158
+    requiredGroupMembership: []
+    permissions:
+      READ:
+      - read1
+      - read2
+      - read3
+      - read4
+      - read5
+      - read6
+      WRITE:
+      - write1
+      - write2
+      - write3
+      - write4
+      - write5
+      - write6
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    - baseline-spinnaker
+    - spinnaker
+    - dev-spinnaker
+    - stg-spinnaker
+    - qa-spinnaker
+    - demo-spinnaker
+    - demo2-spin
+    - stg2-spin
+    - dev2-spin
+    - dev3-spin
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    kubeconfigContents: kubeconfigContents
+    kubectlExecutable: kubectlExecutable
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+    namingStrategy: kubernetesAnnotations
+    debug: false
+    metrics: true
+    checkPermissionsOnStartup: true
+  - name: k8s-acc-159
+    requiredGroupMembership: []
+    permissions:
+      READ:
+      - read1
+      - read2
+      - read3
+      - read4
+      - read5
+      - read6
+      WRITE:
+      - write1
+      - write2
+      - write3
+      - write4
+      - write5
+      - write6
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    - baseline-spinnaker
+    - spinnaker
+    - dev-spinnaker
+    - stg-spinnaker
+    - qa-spinnaker
+    - demo-spinnaker
+    - demo2-spin
+    - stg2-spin
+    - dev2-spin
+    - dev3-spin
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    kubeconfigContents: kubeconfigContents
+    kubectlExecutable: kubectlExecutable
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+    namingStrategy: kubernetesAnnotations
+    debug: false
+    metrics: true
+    checkPermissionsOnStartup: true
+  - name: k8s-acc-160
+    requiredGroupMembership: []
+    permissions:
+      READ:
+      - read1
+      - read2
+      - read3
+      - read4
+      - read5
+      - read6
+      WRITE:
+      - write1
+      - write2
+      - write3
+      - write4
+      - write5
+      - write6
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    - baseline-spinnaker
+    - spinnaker
+    - dev-spinnaker
+    - stg-spinnaker
+    - qa-spinnaker
+    - demo-spinnaker
+    - demo2-spin
+    - stg2-spin
+    - dev2-spin
+    - dev3-spin
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    kubeconfigContents: kubeconfigContents
+    kubectlExecutable: kubectlExecutable
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+    namingStrategy: kubernetesAnnotations
+    debug: false
+    metrics: true
+    checkPermissionsOnStartup: true
+  - name: k8s-acc-161
+    requiredGroupMembership: []
+    permissions:
+      READ:
+      - read1
+      - read2
+      - read3
+      - read4
+      - read5
+      - read6
+      WRITE:
+      - write1
+      - write2
+      - write3
+      - write4
+      - write5
+      - write6
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    - baseline-spinnaker
+    - spinnaker
+    - dev-spinnaker
+    - stg-spinnaker
+    - qa-spinnaker
+    - demo-spinnaker
+    - demo2-spin
+    - stg2-spin
+    - dev2-spin
+    - dev3-spin
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    kubeconfigContents: kubeconfigContents
+    kubectlExecutable: kubectlExecutable
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+    namingStrategy: kubernetesAnnotations
+    debug: false
+    metrics: true
+    checkPermissionsOnStartup: true
+  - name: k8s-acc-162
+    requiredGroupMembership: []
+    permissions:
+      READ:
+      - read1
+      - read2
+      - read3
+      - read4
+      - read5
+      - read6
+      WRITE:
+      - write1
+      - write2
+      - write3
+      - write4
+      - write5
+      - write6
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    - baseline-spinnaker
+    - spinnaker
+    - dev-spinnaker
+    - stg-spinnaker
+    - qa-spinnaker
+    - demo-spinnaker
+    - demo2-spin
+    - stg2-spin
+    - dev2-spin
+    - dev3-spin
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    kubeconfigContents: kubeconfigContents
+    kubectlExecutable: kubectlExecutable
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+    namingStrategy: kubernetesAnnotations
+    debug: false
+    metrics: true
+    checkPermissionsOnStartup: true
+  - name: k8s-acc-163
+    requiredGroupMembership: []
+    permissions:
+      READ:
+      - read1
+      - read2
+      - read3
+      - read4
+      - read5
+      - read6
+      WRITE:
+      - write1
+      - write2
+      - write3
+      - write4
+      - write5
+      - write6
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    - baseline-spinnaker
+    - spinnaker
+    - dev-spinnaker
+    - stg-spinnaker
+    - qa-spinnaker
+    - demo-spinnaker
+    - demo2-spin
+    - stg2-spin
+    - dev2-spin
+    - dev3-spin
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    kubeconfigContents: kubeconfigContents
+    kubectlExecutable: kubectlExecutable
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+    namingStrategy: kubernetesAnnotations
+    debug: false
+    metrics: true
+    checkPermissionsOnStartup: true
+  - name: k8s-acc-164
+    requiredGroupMembership: []
+    permissions:
+      READ:
+      - read1
+      - read2
+      - read3
+      - read4
+      - read5
+      - read6
+      WRITE:
+      - write1
+      - write2
+      - write3
+      - write4
+      - write5
+      - write6
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    - baseline-spinnaker
+    - spinnaker
+    - dev-spinnaker
+    - stg-spinnaker
+    - qa-spinnaker
+    - demo-spinnaker
+    - demo2-spin
+    - stg2-spin
+    - dev2-spin
+    - dev3-spin
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    kubeconfigContents: kubeconfigContents
+    kubectlExecutable: kubectlExecutable
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+    namingStrategy: kubernetesAnnotations
+    debug: false
+    metrics: true
+    checkPermissionsOnStartup: true
+  - name: k8s-acc-165
+    requiredGroupMembership: []
+    permissions:
+      READ:
+      - read1
+      - read2
+      - read3
+      - read4
+      - read5
+      - read6
+      WRITE:
+      - write1
+      - write2
+      - write3
+      - write4
+      - write5
+      - write6
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    - baseline-spinnaker
+    - spinnaker
+    - dev-spinnaker
+    - stg-spinnaker
+    - qa-spinnaker
+    - demo-spinnaker
+    - demo2-spin
+    - stg2-spin
+    - dev2-spin
+    - dev3-spin
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    kubeconfigContents: kubeconfigContents
+    kubectlExecutable: kubectlExecutable
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+    namingStrategy: kubernetesAnnotations
+    debug: false
+    metrics: true
+    checkPermissionsOnStartup: true
+  - name: k8s-acc-166
+    requiredGroupMembership: []
+    permissions:
+      READ:
+      - read1
+      - read2
+      - read3
+      - read4
+      - read5
+      - read6
+      WRITE:
+      - write1
+      - write2
+      - write3
+      - write4
+      - write5
+      - write6
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    - baseline-spinnaker
+    - spinnaker
+    - dev-spinnaker
+    - stg-spinnaker
+    - qa-spinnaker
+    - demo-spinnaker
+    - demo2-spin
+    - stg2-spin
+    - dev2-spin
+    - dev3-spin
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    kubeconfigContents: kubeconfigContents
+    kubectlExecutable: kubectlExecutable
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+    namingStrategy: kubernetesAnnotations
+    debug: false
+    metrics: true
+    checkPermissionsOnStartup: true
+  - name: k8s-acc-167
+    requiredGroupMembership: []
+    permissions:
+      READ:
+      - read1
+      - read2
+      - read3
+      - read4
+      - read5
+      - read6
+      WRITE:
+      - write1
+      - write2
+      - write3
+      - write4
+      - write5
+      - write6
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    - baseline-spinnaker
+    - spinnaker
+    - dev-spinnaker
+    - stg-spinnaker
+    - qa-spinnaker
+    - demo-spinnaker
+    - demo2-spin
+    - stg2-spin
+    - dev2-spin
+    - dev3-spin
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    kubeconfigContents: kubeconfigContents
+    kubectlExecutable: kubectlExecutable
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+    namingStrategy: kubernetesAnnotations
+    debug: false
+    metrics: true
+    checkPermissionsOnStartup: true
+  - name: k8s-acc-168
+    requiredGroupMembership: []
+    permissions:
+      READ:
+      - read1
+      - read2
+      - read3
+      - read4
+      - read5
+      - read6
+      WRITE:
+      - write1
+      - write2
+      - write3
+      - write4
+      - write5
+      - write6
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    - baseline-spinnaker
+    - spinnaker
+    - dev-spinnaker
+    - stg-spinnaker
+    - qa-spinnaker
+    - demo-spinnaker
+    - demo2-spin
+    - stg2-spin
+    - dev2-spin
+    - dev3-spin
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    kubeconfigContents: kubeconfigContents
+    kubectlExecutable: kubectlExecutable
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+    namingStrategy: kubernetesAnnotations
+    debug: false
+    metrics: true
+    checkPermissionsOnStartup: true
+  - name: k8s-acc-169
+    requiredGroupMembership: []
+    permissions:
+      READ:
+      - read1
+      - read2
+      - read3
+      - read4
+      - read5
+      - read6
+      WRITE:
+      - write1
+      - write2
+      - write3
+      - write4
+      - write5
+      - write6
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    - baseline-spinnaker
+    - spinnaker
+    - dev-spinnaker
+    - stg-spinnaker
+    - qa-spinnaker
+    - demo-spinnaker
+    - demo2-spin
+    - stg2-spin
+    - dev2-spin
+    - dev3-spin
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    kubeconfigContents: kubeconfigContents
+    kubectlExecutable: kubectlExecutable
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+    namingStrategy: kubernetesAnnotations
+    debug: false
+    metrics: true
+    checkPermissionsOnStartup: true
+  - name: k8s-acc-170
+    requiredGroupMembership: []
+    permissions:
+      READ:
+      - read1
+      - read2
+      - read3
+      - read4
+      - read5
+      - read6
+      WRITE:
+      - write1
+      - write2
+      - write3
+      - write4
+      - write5
+      - write6
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    - baseline-spinnaker
+    - spinnaker
+    - dev-spinnaker
+    - stg-spinnaker
+    - qa-spinnaker
+    - demo-spinnaker
+    - demo2-spin
+    - stg2-spin
+    - dev2-spin
+    - dev3-spin
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    kubeconfigContents: kubeconfigContents
+    kubectlExecutable: kubectlExecutable
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+    namingStrategy: kubernetesAnnotations
+    debug: false
+    metrics: true
+    checkPermissionsOnStartup: true
+  - name: k8s-acc-171
+    requiredGroupMembership: []
+    permissions:
+      READ:
+      - read1
+      - read2
+      - read3
+      - read4
+      - read5
+      - read6
+      WRITE:
+      - write1
+      - write2
+      - write3
+      - write4
+      - write5
+      - write6
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    - baseline-spinnaker
+    - spinnaker
+    - dev-spinnaker
+    - stg-spinnaker
+    - qa-spinnaker
+    - demo-spinnaker
+    - demo2-spin
+    - stg2-spin
+    - dev2-spin
+    - dev3-spin
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    kubeconfigContents: kubeconfigContents
+    kubectlExecutable: kubectlExecutable
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+    namingStrategy: kubernetesAnnotations
+    debug: false
+    metrics: true
+    checkPermissionsOnStartup: true
+  - name: k8s-acc-172
+    requiredGroupMembership: []
+    permissions:
+      READ:
+      - read1
+      - read2
+      - read3
+      - read4
+      - read5
+      - read6
+      WRITE:
+      - write1
+      - write2
+      - write3
+      - write4
+      - write5
+      - write6
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    - baseline-spinnaker
+    - spinnaker
+    - dev-spinnaker
+    - stg-spinnaker
+    - qa-spinnaker
+    - demo-spinnaker
+    - demo2-spin
+    - stg2-spin
+    - dev2-spin
+    - dev3-spin
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    kubeconfigContents: kubeconfigContents
+    kubectlExecutable: kubectlExecutable
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+    namingStrategy: kubernetesAnnotations
+    debug: false
+    metrics: true
+    checkPermissionsOnStartup: true
+  - name: k8s-acc-173
+    requiredGroupMembership: []
+    permissions:
+      READ:
+      - read1
+      - read2
+      - read3
+      - read4
+      - read5
+      - read6
+      WRITE:
+      - write1
+      - write2
+      - write3
+      - write4
+      - write5
+      - write6
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    - baseline-spinnaker
+    - spinnaker
+    - dev-spinnaker
+    - stg-spinnaker
+    - qa-spinnaker
+    - demo-spinnaker
+    - demo2-spin
+    - stg2-spin
+    - dev2-spin
+    - dev3-spin
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    kubeconfigContents: kubeconfigContents
+    kubectlExecutable: kubectlExecutable
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+    namingStrategy: kubernetesAnnotations
+    debug: false
+    metrics: true
+    checkPermissionsOnStartup: true
+  - name: k8s-acc-174
+    requiredGroupMembership: []
+    permissions:
+      READ:
+      - read1
+      - read2
+      - read3
+      - read4
+      - read5
+      - read6
+      WRITE:
+      - write1
+      - write2
+      - write3
+      - write4
+      - write5
+      - write6
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    - baseline-spinnaker
+    - spinnaker
+    - dev-spinnaker
+    - stg-spinnaker
+    - qa-spinnaker
+    - demo-spinnaker
+    - demo2-spin
+    - stg2-spin
+    - dev2-spin
+    - dev3-spin
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    kubeconfigContents: kubeconfigContents
+    kubectlExecutable: kubectlExecutable
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+    namingStrategy: kubernetesAnnotations
+    debug: false
+    metrics: true
+    checkPermissionsOnStartup: true
+  - name: k8s-acc-175
+    requiredGroupMembership: []
+    permissions:
+      READ:
+      - read1
+      - read2
+      - read3
+      - read4
+      - read5
+      - read6
+      WRITE:
+      - write1
+      - write2
+      - write3
+      - write4
+      - write5
+      - write6
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    - baseline-spinnaker
+    - spinnaker
+    - dev-spinnaker
+    - stg-spinnaker
+    - qa-spinnaker
+    - demo-spinnaker
+    - demo2-spin
+    - stg2-spin
+    - dev2-spin
+    - dev3-spin
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    kubeconfigContents: kubeconfigContents
+    kubectlExecutable: kubectlExecutable
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+    namingStrategy: kubernetesAnnotations
+    debug: false
+    metrics: true
+    checkPermissionsOnStartup: true
+  - name: k8s-acc-176
+    requiredGroupMembership: []
+    permissions:
+      READ:
+      - read1
+      - read2
+      - read3
+      - read4
+      - read5
+      - read6
+      WRITE:
+      - write1
+      - write2
+      - write3
+      - write4
+      - write5
+      - write6
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    - baseline-spinnaker
+    - spinnaker
+    - dev-spinnaker
+    - stg-spinnaker
+    - qa-spinnaker
+    - demo-spinnaker
+    - demo2-spin
+    - stg2-spin
+    - dev2-spin
+    - dev3-spin
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    kubeconfigContents: kubeconfigContents
+    kubectlExecutable: kubectlExecutable
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+    namingStrategy: kubernetesAnnotations
+    debug: false
+    metrics: true
+    checkPermissionsOnStartup: true
+  - name: k8s-acc-177
+    requiredGroupMembership: []
+    permissions:
+      READ:
+      - read1
+      - read2
+      - read3
+      - read4
+      - read5
+      - read6
+      WRITE:
+      - write1
+      - write2
+      - write3
+      - write4
+      - write5
+      - write6
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    - baseline-spinnaker
+    - spinnaker
+    - dev-spinnaker
+    - stg-spinnaker
+    - qa-spinnaker
+    - demo-spinnaker
+    - demo2-spin
+    - stg2-spin
+    - dev2-spin
+    - dev3-spin
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    kubeconfigContents: kubeconfigContents
+    kubectlExecutable: kubectlExecutable
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+    namingStrategy: kubernetesAnnotations
+    debug: false
+    metrics: true
+    checkPermissionsOnStartup: true
+  - name: k8s-acc-178
+    requiredGroupMembership: []
+    permissions:
+      READ:
+      - read1
+      - read2
+      - read3
+      - read4
+      - read5
+      - read6
+      WRITE:
+      - write1
+      - write2
+      - write3
+      - write4
+      - write5
+      - write6
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    - baseline-spinnaker
+    - spinnaker
+    - dev-spinnaker
+    - stg-spinnaker
+    - qa-spinnaker
+    - demo-spinnaker
+    - demo2-spin
+    - stg2-spin
+    - dev2-spin
+    - dev3-spin
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    kubeconfigContents: kubeconfigContents
+    kubectlExecutable: kubectlExecutable
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+    namingStrategy: kubernetesAnnotations
+    debug: false
+    metrics: true
+    checkPermissionsOnStartup: true
+  - name: k8s-acc-179
+    requiredGroupMembership: []
+    permissions:
+      READ:
+      - read1
+      - read2
+      - read3
+      - read4
+      - read5
+      - read6
+      WRITE:
+      - write1
+      - write2
+      - write3
+      - write4
+      - write5
+      - write6
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    - baseline-spinnaker
+    - spinnaker
+    - dev-spinnaker
+    - stg-spinnaker
+    - qa-spinnaker
+    - demo-spinnaker
+    - demo2-spin
+    - stg2-spin
+    - dev2-spin
+    - dev3-spin
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    kubeconfigContents: kubeconfigContents
+    kubectlExecutable: kubectlExecutable
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+    namingStrategy: kubernetesAnnotations
+    debug: false
+    metrics: true
+    checkPermissionsOnStartup: true
+  - name: k8s-acc-180
+    requiredGroupMembership: []
+    permissions:
+      READ:
+      - read1
+      - read2
+      - read3
+      - read4
+      - read5
+      - read6
+      WRITE:
+      - write1
+      - write2
+      - write3
+      - write4
+      - write5
+      - write6
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    - baseline-spinnaker
+    - spinnaker
+    - dev-spinnaker
+    - stg-spinnaker
+    - qa-spinnaker
+    - demo-spinnaker
+    - demo2-spin
+    - stg2-spin
+    - dev2-spin
+    - dev3-spin
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    kubeconfigContents: kubeconfigContents
+    kubectlExecutable: kubectlExecutable
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+    namingStrategy: kubernetesAnnotations
+    debug: false
+    metrics: true
+    checkPermissionsOnStartup: true
+  - name: k8s-acc-181
+    requiredGroupMembership: []
+    permissions:
+      READ:
+      - read1
+      - read2
+      - read3
+      - read4
+      - read5
+      - read6
+      WRITE:
+      - write1
+      - write2
+      - write3
+      - write4
+      - write5
+      - write6
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    - baseline-spinnaker
+    - spinnaker
+    - dev-spinnaker
+    - stg-spinnaker
+    - qa-spinnaker
+    - demo-spinnaker
+    - demo2-spin
+    - stg2-spin
+    - dev2-spin
+    - dev3-spin
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    kubeconfigContents: kubeconfigContents
+    kubectlExecutable: kubectlExecutable
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+    namingStrategy: kubernetesAnnotations
+    debug: false
+    metrics: true
+    checkPermissionsOnStartup: true
+  - name: k8s-acc-182
+    requiredGroupMembership: []
+    permissions:
+      READ:
+      - read1
+      - read2
+      - read3
+      - read4
+      - read5
+      - read6
+      WRITE:
+      - write1
+      - write2
+      - write3
+      - write4
+      - write5
+      - write6
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    - baseline-spinnaker
+    - spinnaker
+    - dev-spinnaker
+    - stg-spinnaker
+    - qa-spinnaker
+    - demo-spinnaker
+    - demo2-spin
+    - stg2-spin
+    - dev2-spin
+    - dev3-spin
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    kubeconfigContents: kubeconfigContents
+    kubectlExecutable: kubectlExecutable
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+    namingStrategy: kubernetesAnnotations
+    debug: false
+    metrics: true
+    checkPermissionsOnStartup: true
+  - name: k8s-acc-183
+    requiredGroupMembership: []
+    permissions:
+      READ:
+      - read1
+      - read2
+      - read3
+      - read4
+      - read5
+      - read6
+      WRITE:
+      - write1
+      - write2
+      - write3
+      - write4
+      - write5
+      - write6
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    - baseline-spinnaker
+    - spinnaker
+    - dev-spinnaker
+    - stg-spinnaker
+    - qa-spinnaker
+    - demo-spinnaker
+    - demo2-spin
+    - stg2-spin
+    - dev2-spin
+    - dev3-spin
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    kubeconfigContents: kubeconfigContents
+    kubectlExecutable: kubectlExecutable
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+    namingStrategy: kubernetesAnnotations
+    debug: false
+    metrics: true
+    checkPermissionsOnStartup: true
+  - name: k8s-acc-184
+    requiredGroupMembership: []
+    permissions:
+      READ:
+      - read1
+      - read2
+      - read3
+      - read4
+      - read5
+      - read6
+      WRITE:
+      - write1
+      - write2
+      - write3
+      - write4
+      - write5
+      - write6
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    - baseline-spinnaker
+    - spinnaker
+    - dev-spinnaker
+    - stg-spinnaker
+    - qa-spinnaker
+    - demo-spinnaker
+    - demo2-spin
+    - stg2-spin
+    - dev2-spin
+    - dev3-spin
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    kubeconfigContents: kubeconfigContents
+    kubectlExecutable: kubectlExecutable
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+    namingStrategy: kubernetesAnnotations
+    debug: false
+    metrics: true
+    checkPermissionsOnStartup: true
+  - name: k8s-acc-185
+    requiredGroupMembership: []
+    permissions:
+      READ:
+      - read1
+      - read2
+      - read3
+      - read4
+      - read5
+      - read6
+      WRITE:
+      - write1
+      - write2
+      - write3
+      - write4
+      - write5
+      - write6
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    - baseline-spinnaker
+    - spinnaker
+    - dev-spinnaker
+    - stg-spinnaker
+    - qa-spinnaker
+    - demo-spinnaker
+    - demo2-spin
+    - stg2-spin
+    - dev2-spin
+    - dev3-spin
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    kubeconfigContents: kubeconfigContents
+    kubectlExecutable: kubectlExecutable
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+    namingStrategy: kubernetesAnnotations
+    debug: false
+    metrics: true
+    checkPermissionsOnStartup: true
+  - name: k8s-acc-186
+    requiredGroupMembership: []
+    permissions:
+      READ:
+      - read1
+      - read2
+      - read3
+      - read4
+      - read5
+      - read6
+      WRITE:
+      - write1
+      - write2
+      - write3
+      - write4
+      - write5
+      - write6
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    - baseline-spinnaker
+    - spinnaker
+    - dev-spinnaker
+    - stg-spinnaker
+    - qa-spinnaker
+    - demo-spinnaker
+    - demo2-spin
+    - stg2-spin
+    - dev2-spin
+    - dev3-spin
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    kubeconfigContents: kubeconfigContents
+    kubectlExecutable: kubectlExecutable
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+    namingStrategy: kubernetesAnnotations
+    debug: false
+    metrics: true
+    checkPermissionsOnStartup: true
+  - name: k8s-acc-187
+    requiredGroupMembership: []
+    permissions:
+      READ:
+      - read1
+      - read2
+      - read3
+      - read4
+      - read5
+      - read6
+      WRITE:
+      - write1
+      - write2
+      - write3
+      - write4
+      - write5
+      - write6
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    - baseline-spinnaker
+    - spinnaker
+    - dev-spinnaker
+    - stg-spinnaker
+    - qa-spinnaker
+    - demo-spinnaker
+    - demo2-spin
+    - stg2-spin
+    - dev2-spin
+    - dev3-spin
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    kubeconfigContents: kubeconfigContents
+    kubectlExecutable: kubectlExecutable
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+    namingStrategy: kubernetesAnnotations
+    debug: false
+    metrics: true
+    checkPermissionsOnStartup: true
+  - name: k8s-acc-188
+    requiredGroupMembership: []
+    permissions:
+      READ:
+      - read1
+      - read2
+      - read3
+      - read4
+      - read5
+      - read6
+      WRITE:
+      - write1
+      - write2
+      - write3
+      - write4
+      - write5
+      - write6
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    - baseline-spinnaker
+    - spinnaker
+    - dev-spinnaker
+    - stg-spinnaker
+    - qa-spinnaker
+    - demo-spinnaker
+    - demo2-spin
+    - stg2-spin
+    - dev2-spin
+    - dev3-spin
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    kubeconfigContents: kubeconfigContents
+    kubectlExecutable: kubectlExecutable
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+    namingStrategy: kubernetesAnnotations
+    debug: false
+    metrics: true
+    checkPermissionsOnStartup: true
+  - name: k8s-acc-189
+    requiredGroupMembership: []
+    permissions:
+      READ:
+      - read1
+      - read2
+      - read3
+      - read4
+      - read5
+      - read6
+      WRITE:
+      - write1
+      - write2
+      - write3
+      - write4
+      - write5
+      - write6
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    - baseline-spinnaker
+    - spinnaker
+    - dev-spinnaker
+    - stg-spinnaker
+    - qa-spinnaker
+    - demo-spinnaker
+    - demo2-spin
+    - stg2-spin
+    - dev2-spin
+    - dev3-spin
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    kubeconfigContents: kubeconfigContents
+    kubectlExecutable: kubectlExecutable
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+    namingStrategy: kubernetesAnnotations
+    debug: false
+    metrics: true
+    checkPermissionsOnStartup: true
+  - name: k8s-acc-190
+    requiredGroupMembership: []
+    permissions:
+      READ:
+      - read1
+      - read2
+      - read3
+      - read4
+      - read5
+      - read6
+      WRITE:
+      - write1
+      - write2
+      - write3
+      - write4
+      - write5
+      - write6
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    - baseline-spinnaker
+    - spinnaker
+    - dev-spinnaker
+    - stg-spinnaker
+    - qa-spinnaker
+    - demo-spinnaker
+    - demo2-spin
+    - stg2-spin
+    - dev2-spin
+    - dev3-spin
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    kubeconfigContents: kubeconfigContents
+    kubectlExecutable: kubectlExecutable
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+    namingStrategy: kubernetesAnnotations
+    debug: false
+    metrics: true
+    checkPermissionsOnStartup: true
+  - name: k8s-acc-191
+    requiredGroupMembership: []
+    permissions:
+      READ:
+      - read1
+      - read2
+      - read3
+      - read4
+      - read5
+      - read6
+      WRITE:
+      - write1
+      - write2
+      - write3
+      - write4
+      - write5
+      - write6
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    - baseline-spinnaker
+    - spinnaker
+    - dev-spinnaker
+    - stg-spinnaker
+    - qa-spinnaker
+    - demo-spinnaker
+    - demo2-spin
+    - stg2-spin
+    - dev2-spin
+    - dev3-spin
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    kubeconfigContents: kubeconfigContents
+    kubectlExecutable: kubectlExecutable
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+    namingStrategy: kubernetesAnnotations
+    debug: false
+    metrics: true
+    checkPermissionsOnStartup: true
+  - name: k8s-acc-192
+    requiredGroupMembership: []
+    permissions:
+      READ:
+      - read1
+      - read2
+      - read3
+      - read4
+      - read5
+      - read6
+      WRITE:
+      - write1
+      - write2
+      - write3
+      - write4
+      - write5
+      - write6
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    - baseline-spinnaker
+    - spinnaker
+    - dev-spinnaker
+    - stg-spinnaker
+    - qa-spinnaker
+    - demo-spinnaker
+    - demo2-spin
+    - stg2-spin
+    - dev2-spin
+    - dev3-spin
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    kubeconfigContents: kubeconfigContents
+    kubectlExecutable: kubectlExecutable
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+    namingStrategy: kubernetesAnnotations
+    debug: false
+    metrics: true
+    checkPermissionsOnStartup: true
+  - name: k8s-acc-193
+    requiredGroupMembership: []
+    permissions:
+      READ:
+      - read1
+      - read2
+      - read3
+      - read4
+      - read5
+      - read6
+      WRITE:
+      - write1
+      - write2
+      - write3
+      - write4
+      - write5
+      - write6
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    - baseline-spinnaker
+    - spinnaker
+    - dev-spinnaker
+    - stg-spinnaker
+    - qa-spinnaker
+    - demo-spinnaker
+    - demo2-spin
+    - stg2-spin
+    - dev2-spin
+    - dev3-spin
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    kubeconfigContents: kubeconfigContents
+    kubectlExecutable: kubectlExecutable
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+    namingStrategy: kubernetesAnnotations
+    debug: false
+    metrics: true
+    checkPermissionsOnStartup: true
+  - name: k8s-acc-194
+    requiredGroupMembership: []
+    permissions:
+      READ:
+      - read1
+      - read2
+      - read3
+      - read4
+      - read5
+      - read6
+      WRITE:
+      - write1
+      - write2
+      - write3
+      - write4
+      - write5
+      - write6
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    - baseline-spinnaker
+    - spinnaker
+    - dev-spinnaker
+    - stg-spinnaker
+    - qa-spinnaker
+    - demo-spinnaker
+    - demo2-spin
+    - stg2-spin
+    - dev2-spin
+    - dev3-spin
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    kubeconfigContents: kubeconfigContents
+    kubectlExecutable: kubectlExecutable
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+    namingStrategy: kubernetesAnnotations
+    debug: false
+    metrics: true
+    checkPermissionsOnStartup: true
+  - name: k8s-acc-195
+    requiredGroupMembership: []
+    permissions:
+      READ:
+      - read1
+      - read2
+      - read3
+      - read4
+      - read5
+      - read6
+      WRITE:
+      - write1
+      - write2
+      - write3
+      - write4
+      - write5
+      - write6
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    - baseline-spinnaker
+    - spinnaker
+    - dev-spinnaker
+    - stg-spinnaker
+    - qa-spinnaker
+    - demo-spinnaker
+    - demo2-spin
+    - stg2-spin
+    - dev2-spin
+    - dev3-spin
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    kubeconfigContents: kubeconfigContents
+    kubectlExecutable: kubectlExecutable
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+    namingStrategy: kubernetesAnnotations
+    debug: false
+    metrics: true
+    checkPermissionsOnStartup: true
+  - name: k8s-acc-196
+    requiredGroupMembership: []
+    permissions:
+      READ:
+      - read1
+      - read2
+      - read3
+      - read4
+      - read5
+      - read6
+      WRITE:
+      - write1
+      - write2
+      - write3
+      - write4
+      - write5
+      - write6
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    - baseline-spinnaker
+    - spinnaker
+    - dev-spinnaker
+    - stg-spinnaker
+    - qa-spinnaker
+    - demo-spinnaker
+    - demo2-spin
+    - stg2-spin
+    - dev2-spin
+    - dev3-spin
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    kubeconfigContents: kubeconfigContents
+    kubectlExecutable: kubectlExecutable
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+    namingStrategy: kubernetesAnnotations
+    debug: false
+    metrics: true
+    checkPermissionsOnStartup: true
+  - name: k8s-acc-197
+    requiredGroupMembership: []
+    permissions:
+      READ:
+      - read1
+      - read2
+      - read3
+      - read4
+      - read5
+      - read6
+      WRITE:
+      - write1
+      - write2
+      - write3
+      - write4
+      - write5
+      - write6
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    - baseline-spinnaker
+    - spinnaker
+    - dev-spinnaker
+    - stg-spinnaker
+    - qa-spinnaker
+    - demo-spinnaker
+    - demo2-spin
+    - stg2-spin
+    - dev2-spin
+    - dev3-spin
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    kubeconfigContents: kubeconfigContents
+    kubectlExecutable: kubectlExecutable
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+    namingStrategy: kubernetesAnnotations
+    debug: false
+    metrics: true
+    checkPermissionsOnStartup: true
+  - name: k8s-acc-198
+    requiredGroupMembership: []
+    permissions:
+      READ:
+      - read1
+      - read2
+      - read3
+      - read4
+      - read5
+      - read6
+      WRITE:
+      - write1
+      - write2
+      - write3
+      - write4
+      - write5
+      - write6
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    - baseline-spinnaker
+    - spinnaker
+    - dev-spinnaker
+    - stg-spinnaker
+    - qa-spinnaker
+    - demo-spinnaker
+    - demo2-spin
+    - stg2-spin
+    - dev2-spin
+    - dev3-spin
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    kubeconfigContents: kubeconfigContents
+    kubectlExecutable: kubectlExecutable
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+    namingStrategy: kubernetesAnnotations
+    debug: false
+    metrics: true
+    checkPermissionsOnStartup: true
+  - name: k8s-acc-199
+    requiredGroupMembership: []
+    permissions:
+      READ:
+      - read1
+      - read2
+      - read3
+      - read4
+      - read5
+      - read6
+      WRITE:
+      - write1
+      - write2
+      - write3
+      - write4
+      - write5
+      - write6
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    - baseline-spinnaker
+    - spinnaker
+    - dev-spinnaker
+    - stg-spinnaker
+    - qa-spinnaker
+    - demo-spinnaker
+    - demo2-spin
+    - stg2-spin
+    - dev2-spin
+    - dev3-spin
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    kubeconfigContents: kubeconfigContents
+    kubectlExecutable: kubectlExecutable
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+    namingStrategy: kubernetesAnnotations
+    debug: false
+    metrics: true
+    checkPermissionsOnStartup: true
 
