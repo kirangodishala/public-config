@@ -1,7 +1,12 @@
 kubernetes:
   enabled: true
+  rawResourcesEndpointConfig:
+    kinds:
+    - role
+    - roleBinding
+    omitKinds: []
   accounts:
-  - name: k8s-acc-0
+  - name: local-k8s-acc-0
     requiredGroupMembership: []
     permissions:
       READ:
@@ -18,7 +23,6 @@ kubernetes:
       - write4
       - write5
       - write6
-    configureImagePullSecrets: true
     cacheThreads: 1
     namespaces:
     - oes
@@ -48,16 +52,10 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: configserver:olddemo.config
-    kubeconfigContents: kubeconfigContents
-    kubectlExecutable: kubectlExecutable
+    kubeconfigFile: /Users/kiran.godishala/.kube/config
     oAuthScopes: []
     onlySpinnakerManaged: true
-    namingStrategy: kubernetesAnnotations
-    debug: false
-    metrics: true
-    checkPermissionsOnStartup: true
-  - name: k8s-acc-1
+  - name: local-k8s-acc-1
     requiredGroupMembership: []
     permissions:
       READ:
@@ -74,7 +72,6 @@ kubernetes:
       - write4
       - write5
       - write6
-    configureImagePullSecrets: true
     cacheThreads: 1
     namespaces:
     - oes
@@ -104,16 +101,10 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: configserver:olddemo.config
-    kubeconfigContents: kubeconfigContents
-    kubectlExecutable: kubectlExecutable
+    kubeconfigFile: /Users/kiran.godishala/.kube/config
     oAuthScopes: []
     onlySpinnakerManaged: true
-    namingStrategy: kubernetesAnnotations
-    debug: false
-    metrics: true
-    checkPermissionsOnStartup: true
-  - name: k8s-acc-2
+  - name: local-k8s-acc-2
     requiredGroupMembership: []
     permissions:
       READ:
@@ -130,7 +121,6 @@ kubernetes:
       - write4
       - write5
       - write6
-    configureImagePullSecrets: true
     cacheThreads: 1
     namespaces:
     - oes
@@ -160,16 +150,10 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: configserver:olddemo.config
-    kubeconfigContents: kubeconfigContents
-    kubectlExecutable: kubectlExecutable
+    kubeconfigFile: /Users/kiran.godishala/.kube/config
     oAuthScopes: []
     onlySpinnakerManaged: true
-    namingStrategy: kubernetesAnnotations
-    debug: false
-    metrics: true
-    checkPermissionsOnStartup: true
-  - name: k8s-acc-3
+  - name: local-k8s-acc-3
     requiredGroupMembership: []
     permissions:
       READ:
@@ -186,7 +170,6 @@ kubernetes:
       - write4
       - write5
       - write6
-    configureImagePullSecrets: true
     cacheThreads: 1
     namespaces:
     - oes
@@ -216,16 +199,10 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: configserver:olddemo.config
-    kubeconfigContents: kubeconfigContents
-    kubectlExecutable: kubectlExecutable
+    kubeconfigFile: /Users/kiran.godishala/.kube/config
     oAuthScopes: []
     onlySpinnakerManaged: true
-    namingStrategy: kubernetesAnnotations
-    debug: false
-    metrics: true
-    checkPermissionsOnStartup: true
-  - name: k8s-acc-4
+  - name: local-k8s-acc-4
     requiredGroupMembership: []
     permissions:
       READ:
@@ -242,7 +219,6 @@ kubernetes:
       - write4
       - write5
       - write6
-    configureImagePullSecrets: true
     cacheThreads: 1
     namespaces:
     - oes
@@ -272,16 +248,10 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: configserver:olddemo.config
-    kubeconfigContents: kubeconfigContents
-    kubectlExecutable: kubectlExecutable
+    kubeconfigFile: /Users/kiran.godishala/.kube/config
     oAuthScopes: []
     onlySpinnakerManaged: true
-    namingStrategy: kubernetesAnnotations
-    debug: false
-    metrics: true
-    checkPermissionsOnStartup: true
-  - name: k8s-acc-5
+  - name: local-k8s-acc-5
     requiredGroupMembership: []
     permissions:
       READ:
@@ -298,7 +268,6 @@ kubernetes:
       - write4
       - write5
       - write6
-    configureImagePullSecrets: true
     cacheThreads: 1
     namespaces:
     - oes
@@ -328,16 +297,10 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: configserver:olddemo.config
-    kubeconfigContents: kubeconfigContents
-    kubectlExecutable: kubectlExecutable
+    kubeconfigFile: /Users/kiran.godishala/.kube/config
     oAuthScopes: []
     onlySpinnakerManaged: true
-    namingStrategy: kubernetesAnnotations
-    debug: false
-    metrics: true
-    checkPermissionsOnStartup: true
-  - name: k8s-acc-6
+  - name: local-k8s-acc-6
     requiredGroupMembership: []
     permissions:
       READ:
@@ -354,7 +317,6 @@ kubernetes:
       - write4
       - write5
       - write6
-    configureImagePullSecrets: true
     cacheThreads: 1
     namespaces:
     - oes
@@ -384,16 +346,10 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: configserver:olddemo.config
-    kubeconfigContents: kubeconfigContents
-    kubectlExecutable: kubectlExecutable
+    kubeconfigFile: /Users/kiran.godishala/.kube/config
     oAuthScopes: []
     onlySpinnakerManaged: true
-    namingStrategy: kubernetesAnnotations
-    debug: false
-    metrics: true
-    checkPermissionsOnStartup: true
-  - name: k8s-acc-7
+  - name: local-k8s-acc-7
     requiredGroupMembership: []
     permissions:
       READ:
@@ -410,7 +366,6 @@ kubernetes:
       - write4
       - write5
       - write6
-    configureImagePullSecrets: true
     cacheThreads: 1
     namespaces:
     - oes
@@ -440,16 +395,10 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: configserver:olddemo.config
-    kubeconfigContents: kubeconfigContents
-    kubectlExecutable: kubectlExecutable
+    kubeconfigFile: /Users/kiran.godishala/.kube/config
     oAuthScopes: []
     onlySpinnakerManaged: true
-    namingStrategy: kubernetesAnnotations
-    debug: false
-    metrics: true
-    checkPermissionsOnStartup: true
-  - name: k8s-acc-8
+  - name: local-k8s-acc-8
     requiredGroupMembership: []
     permissions:
       READ:
@@ -466,7 +415,6 @@ kubernetes:
       - write4
       - write5
       - write6
-    configureImagePullSecrets: true
     cacheThreads: 1
     namespaces:
     - oes
@@ -496,16 +444,10 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: configserver:olddemo.config
-    kubeconfigContents: kubeconfigContents
-    kubectlExecutable: kubectlExecutable
+    kubeconfigFile: /Users/kiran.godishala/.kube/config
     oAuthScopes: []
     onlySpinnakerManaged: true
-    namingStrategy: kubernetesAnnotations
-    debug: false
-    metrics: true
-    checkPermissionsOnStartup: true
-  - name: k8s-acc-9
+  - name: local-k8s-acc-9
     requiredGroupMembership: []
     permissions:
       READ:
@@ -522,7 +464,6 @@ kubernetes:
       - write4
       - write5
       - write6
-    configureImagePullSecrets: true
     cacheThreads: 1
     namespaces:
     - oes
@@ -552,16 +493,10 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: configserver:olddemo.config
-    kubeconfigContents: kubeconfigContents
-    kubectlExecutable: kubectlExecutable
+    kubeconfigFile: /Users/kiran.godishala/.kube/config
     oAuthScopes: []
     onlySpinnakerManaged: true
-    namingStrategy: kubernetesAnnotations
-    debug: false
-    metrics: true
-    checkPermissionsOnStartup: true
-  - name: k8s-acc-10
+  - name: local-k8s-acc-10
     requiredGroupMembership: []
     permissions:
       READ:
@@ -578,7 +513,6 @@ kubernetes:
       - write4
       - write5
       - write6
-    configureImagePullSecrets: true
     cacheThreads: 1
     namespaces:
     - oes
@@ -608,16 +542,10 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: configserver:olddemo.config
-    kubeconfigContents: kubeconfigContents
-    kubectlExecutable: kubectlExecutable
+    kubeconfigFile: /Users/kiran.godishala/.kube/config
     oAuthScopes: []
     onlySpinnakerManaged: true
-    namingStrategy: kubernetesAnnotations
-    debug: false
-    metrics: true
-    checkPermissionsOnStartup: true
-  - name: k8s-acc-11
+  - name: local-k8s-acc-11
     requiredGroupMembership: []
     permissions:
       READ:
@@ -634,7 +562,6 @@ kubernetes:
       - write4
       - write5
       - write6
-    configureImagePullSecrets: true
     cacheThreads: 1
     namespaces:
     - oes
@@ -664,16 +591,10 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: configserver:olddemo.config
-    kubeconfigContents: kubeconfigContents
-    kubectlExecutable: kubectlExecutable
+    kubeconfigFile: /Users/kiran.godishala/.kube/config
     oAuthScopes: []
     onlySpinnakerManaged: true
-    namingStrategy: kubernetesAnnotations
-    debug: false
-    metrics: true
-    checkPermissionsOnStartup: true
-  - name: k8s-acc-12
+  - name: local-k8s-acc-12
     requiredGroupMembership: []
     permissions:
       READ:
@@ -690,7 +611,6 @@ kubernetes:
       - write4
       - write5
       - write6
-    configureImagePullSecrets: true
     cacheThreads: 1
     namespaces:
     - oes
@@ -720,16 +640,10 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: configserver:olddemo.config
-    kubeconfigContents: kubeconfigContents
-    kubectlExecutable: kubectlExecutable
+    kubeconfigFile: /Users/kiran.godishala/.kube/config
     oAuthScopes: []
     onlySpinnakerManaged: true
-    namingStrategy: kubernetesAnnotations
-    debug: false
-    metrics: true
-    checkPermissionsOnStartup: true
-  - name: k8s-acc-13
+  - name: local-k8s-acc-13
     requiredGroupMembership: []
     permissions:
       READ:
@@ -746,7 +660,6 @@ kubernetes:
       - write4
       - write5
       - write6
-    configureImagePullSecrets: true
     cacheThreads: 1
     namespaces:
     - oes
@@ -776,16 +689,10 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: configserver:olddemo.config
-    kubeconfigContents: kubeconfigContents
-    kubectlExecutable: kubectlExecutable
+    kubeconfigFile: /Users/kiran.godishala/.kube/config
     oAuthScopes: []
     onlySpinnakerManaged: true
-    namingStrategy: kubernetesAnnotations
-    debug: false
-    metrics: true
-    checkPermissionsOnStartup: true
-  - name: k8s-acc-14
+  - name: local-k8s-acc-14
     requiredGroupMembership: []
     permissions:
       READ:
@@ -802,7 +709,6 @@ kubernetes:
       - write4
       - write5
       - write6
-    configureImagePullSecrets: true
     cacheThreads: 1
     namespaces:
     - oes
@@ -832,16 +738,10 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: configserver:olddemo.config
-    kubeconfigContents: kubeconfigContents
-    kubectlExecutable: kubectlExecutable
+    kubeconfigFile: /Users/kiran.godishala/.kube/config
     oAuthScopes: []
     onlySpinnakerManaged: true
-    namingStrategy: kubernetesAnnotations
-    debug: false
-    metrics: true
-    checkPermissionsOnStartup: true
-  - name: k8s-acc-15
+  - name: local-k8s-acc-15
     requiredGroupMembership: []
     permissions:
       READ:
@@ -858,7 +758,6 @@ kubernetes:
       - write4
       - write5
       - write6
-    configureImagePullSecrets: true
     cacheThreads: 1
     namespaces:
     - oes
@@ -888,16 +787,10 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: configserver:olddemo.config
-    kubeconfigContents: kubeconfigContents
-    kubectlExecutable: kubectlExecutable
+    kubeconfigFile: /Users/kiran.godishala/.kube/config
     oAuthScopes: []
     onlySpinnakerManaged: true
-    namingStrategy: kubernetesAnnotations
-    debug: false
-    metrics: true
-    checkPermissionsOnStartup: true
-  - name: k8s-acc-16
+  - name: local-k8s-acc-16
     requiredGroupMembership: []
     permissions:
       READ:
@@ -914,7 +807,6 @@ kubernetes:
       - write4
       - write5
       - write6
-    configureImagePullSecrets: true
     cacheThreads: 1
     namespaces:
     - oes
@@ -944,16 +836,10 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: configserver:olddemo.config
-    kubeconfigContents: kubeconfigContents
-    kubectlExecutable: kubectlExecutable
+    kubeconfigFile: /Users/kiran.godishala/.kube/config
     oAuthScopes: []
     onlySpinnakerManaged: true
-    namingStrategy: kubernetesAnnotations
-    debug: false
-    metrics: true
-    checkPermissionsOnStartup: true
-  - name: k8s-acc-17
+  - name: local-k8s-acc-17
     requiredGroupMembership: []
     permissions:
       READ:
@@ -970,7 +856,6 @@ kubernetes:
       - write4
       - write5
       - write6
-    configureImagePullSecrets: true
     cacheThreads: 1
     namespaces:
     - oes
@@ -1000,16 +885,10 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: configserver:olddemo.config
-    kubeconfigContents: kubeconfigContents
-    kubectlExecutable: kubectlExecutable
+    kubeconfigFile: /Users/kiran.godishala/.kube/config
     oAuthScopes: []
     onlySpinnakerManaged: true
-    namingStrategy: kubernetesAnnotations
-    debug: false
-    metrics: true
-    checkPermissionsOnStartup: true
-  - name: k8s-acc-18
+  - name: local-k8s-acc-18
     requiredGroupMembership: []
     permissions:
       READ:
@@ -1026,7 +905,6 @@ kubernetes:
       - write4
       - write5
       - write6
-    configureImagePullSecrets: true
     cacheThreads: 1
     namespaces:
     - oes
@@ -1056,16 +934,10 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: configserver:olddemo.config
-    kubeconfigContents: kubeconfigContents
-    kubectlExecutable: kubectlExecutable
+    kubeconfigFile: /Users/kiran.godishala/.kube/config
     oAuthScopes: []
     onlySpinnakerManaged: true
-    namingStrategy: kubernetesAnnotations
-    debug: false
-    metrics: true
-    checkPermissionsOnStartup: true
-  - name: k8s-acc-19
+  - name: local-k8s-acc-19
     requiredGroupMembership: []
     permissions:
       READ:
@@ -1082,7 +954,6 @@ kubernetes:
       - write4
       - write5
       - write6
-    configureImagePullSecrets: true
     cacheThreads: 1
     namespaces:
     - oes
@@ -1112,16 +983,10 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: configserver:olddemo.config
-    kubeconfigContents: kubeconfigContents
-    kubectlExecutable: kubectlExecutable
+    kubeconfigFile: /Users/kiran.godishala/.kube/config
     oAuthScopes: []
     onlySpinnakerManaged: true
-    namingStrategy: kubernetesAnnotations
-    debug: false
-    metrics: true
-    checkPermissionsOnStartup: true
-  - name: k8s-acc-20
+  - name: local-k8s-acc-20
     requiredGroupMembership: []
     permissions:
       READ:
@@ -1138,7 +1003,6 @@ kubernetes:
       - write4
       - write5
       - write6
-    configureImagePullSecrets: true
     cacheThreads: 1
     namespaces:
     - oes
@@ -1168,16 +1032,10 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: configserver:olddemo.config
-    kubeconfigContents: kubeconfigContents
-    kubectlExecutable: kubectlExecutable
+    kubeconfigFile: /Users/kiran.godishala/.kube/config
     oAuthScopes: []
     onlySpinnakerManaged: true
-    namingStrategy: kubernetesAnnotations
-    debug: false
-    metrics: true
-    checkPermissionsOnStartup: true
-  - name: k8s-acc-21
+  - name: local-k8s-acc-21
     requiredGroupMembership: []
     permissions:
       READ:
@@ -1194,7 +1052,6 @@ kubernetes:
       - write4
       - write5
       - write6
-    configureImagePullSecrets: true
     cacheThreads: 1
     namespaces:
     - oes
@@ -1224,16 +1081,10 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: configserver:olddemo.config
-    kubeconfigContents: kubeconfigContents
-    kubectlExecutable: kubectlExecutable
+    kubeconfigFile: /Users/kiran.godishala/.kube/config
     oAuthScopes: []
     onlySpinnakerManaged: true
-    namingStrategy: kubernetesAnnotations
-    debug: false
-    metrics: true
-    checkPermissionsOnStartup: true
-  - name: k8s-acc-22
+  - name: local-k8s-acc-22
     requiredGroupMembership: []
     permissions:
       READ:
@@ -1250,7 +1101,6 @@ kubernetes:
       - write4
       - write5
       - write6
-    configureImagePullSecrets: true
     cacheThreads: 1
     namespaces:
     - oes
@@ -1280,16 +1130,10 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: configserver:olddemo.config
-    kubeconfigContents: kubeconfigContents
-    kubectlExecutable: kubectlExecutable
+    kubeconfigFile: /Users/kiran.godishala/.kube/config
     oAuthScopes: []
     onlySpinnakerManaged: true
-    namingStrategy: kubernetesAnnotations
-    debug: false
-    metrics: true
-    checkPermissionsOnStartup: true
-  - name: k8s-acc-23
+  - name: local-k8s-acc-23
     requiredGroupMembership: []
     permissions:
       READ:
@@ -1306,7 +1150,6 @@ kubernetes:
       - write4
       - write5
       - write6
-    configureImagePullSecrets: true
     cacheThreads: 1
     namespaces:
     - oes
@@ -1336,16 +1179,10 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: configserver:olddemo.config
-    kubeconfigContents: kubeconfigContents
-    kubectlExecutable: kubectlExecutable
+    kubeconfigFile: /Users/kiran.godishala/.kube/config
     oAuthScopes: []
     onlySpinnakerManaged: true
-    namingStrategy: kubernetesAnnotations
-    debug: false
-    metrics: true
-    checkPermissionsOnStartup: true
-  - name: k8s-acc-24
+  - name: local-k8s-acc-24
     requiredGroupMembership: []
     permissions:
       READ:
@@ -1362,7 +1199,6 @@ kubernetes:
       - write4
       - write5
       - write6
-    configureImagePullSecrets: true
     cacheThreads: 1
     namespaces:
     - oes
@@ -1392,16 +1228,10 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: configserver:olddemo.config
-    kubeconfigContents: kubeconfigContents
-    kubectlExecutable: kubectlExecutable
+    kubeconfigFile: /Users/kiran.godishala/.kube/config
     oAuthScopes: []
     onlySpinnakerManaged: true
-    namingStrategy: kubernetesAnnotations
-    debug: false
-    metrics: true
-    checkPermissionsOnStartup: true
-  - name: k8s-acc-25
+  - name: local-k8s-acc-25
     requiredGroupMembership: []
     permissions:
       READ:
@@ -1418,7 +1248,6 @@ kubernetes:
       - write4
       - write5
       - write6
-    configureImagePullSecrets: true
     cacheThreads: 1
     namespaces:
     - oes
@@ -1448,16 +1277,10 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: configserver:olddemo.config
-    kubeconfigContents: kubeconfigContents
-    kubectlExecutable: kubectlExecutable
+    kubeconfigFile: /Users/kiran.godishala/.kube/config
     oAuthScopes: []
     onlySpinnakerManaged: true
-    namingStrategy: kubernetesAnnotations
-    debug: false
-    metrics: true
-    checkPermissionsOnStartup: true
-  - name: k8s-acc-26
+  - name: local-k8s-acc-26
     requiredGroupMembership: []
     permissions:
       READ:
@@ -1474,7 +1297,6 @@ kubernetes:
       - write4
       - write5
       - write6
-    configureImagePullSecrets: true
     cacheThreads: 1
     namespaces:
     - oes
@@ -1504,16 +1326,10 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: configserver:olddemo.config
-    kubeconfigContents: kubeconfigContents
-    kubectlExecutable: kubectlExecutable
+    kubeconfigFile: /Users/kiran.godishala/.kube/config
     oAuthScopes: []
     onlySpinnakerManaged: true
-    namingStrategy: kubernetesAnnotations
-    debug: false
-    metrics: true
-    checkPermissionsOnStartup: true
-  - name: k8s-acc-27
+  - name: local-k8s-acc-27
     requiredGroupMembership: []
     permissions:
       READ:
@@ -1530,7 +1346,6 @@ kubernetes:
       - write4
       - write5
       - write6
-    configureImagePullSecrets: true
     cacheThreads: 1
     namespaces:
     - oes
@@ -1560,16 +1375,10 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: configserver:olddemo.config
-    kubeconfigContents: kubeconfigContents
-    kubectlExecutable: kubectlExecutable
+    kubeconfigFile: /Users/kiran.godishala/.kube/config
     oAuthScopes: []
     onlySpinnakerManaged: true
-    namingStrategy: kubernetesAnnotations
-    debug: false
-    metrics: true
-    checkPermissionsOnStartup: true
-  - name: k8s-acc-28
+  - name: local-k8s-acc-28
     requiredGroupMembership: []
     permissions:
       READ:
@@ -1586,7 +1395,6 @@ kubernetes:
       - write4
       - write5
       - write6
-    configureImagePullSecrets: true
     cacheThreads: 1
     namespaces:
     - oes
@@ -1616,16 +1424,10 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: configserver:olddemo.config
-    kubeconfigContents: kubeconfigContents
-    kubectlExecutable: kubectlExecutable
+    kubeconfigFile: /Users/kiran.godishala/.kube/config
     oAuthScopes: []
     onlySpinnakerManaged: true
-    namingStrategy: kubernetesAnnotations
-    debug: false
-    metrics: true
-    checkPermissionsOnStartup: true
-  - name: k8s-acc-29
+  - name: local-k8s-acc-29
     requiredGroupMembership: []
     permissions:
       READ:
@@ -1642,7 +1444,6 @@ kubernetes:
       - write4
       - write5
       - write6
-    configureImagePullSecrets: true
     cacheThreads: 1
     namespaces:
     - oes
@@ -1672,16 +1473,10 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: configserver:olddemo.config
-    kubeconfigContents: kubeconfigContents
-    kubectlExecutable: kubectlExecutable
+    kubeconfigFile: /Users/kiran.godishala/.kube/config
     oAuthScopes: []
     onlySpinnakerManaged: true
-    namingStrategy: kubernetesAnnotations
-    debug: false
-    metrics: true
-    checkPermissionsOnStartup: true
-  - name: k8s-acc-30
+  - name: local-k8s-acc-30
     requiredGroupMembership: []
     permissions:
       READ:
@@ -1698,7 +1493,6 @@ kubernetes:
       - write4
       - write5
       - write6
-    configureImagePullSecrets: true
     cacheThreads: 1
     namespaces:
     - oes
@@ -1728,16 +1522,10 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: configserver:olddemo.config
-    kubeconfigContents: kubeconfigContents
-    kubectlExecutable: kubectlExecutable
+    kubeconfigFile: /Users/kiran.godishala/.kube/config
     oAuthScopes: []
     onlySpinnakerManaged: true
-    namingStrategy: kubernetesAnnotations
-    debug: false
-    metrics: true
-    checkPermissionsOnStartup: true
-  - name: k8s-acc-31
+  - name: local-k8s-acc-31
     requiredGroupMembership: []
     permissions:
       READ:
@@ -1754,7 +1542,6 @@ kubernetes:
       - write4
       - write5
       - write6
-    configureImagePullSecrets: true
     cacheThreads: 1
     namespaces:
     - oes
@@ -1784,16 +1571,10 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: configserver:olddemo.config
-    kubeconfigContents: kubeconfigContents
-    kubectlExecutable: kubectlExecutable
+    kubeconfigFile: /Users/kiran.godishala/.kube/config
     oAuthScopes: []
     onlySpinnakerManaged: true
-    namingStrategy: kubernetesAnnotations
-    debug: false
-    metrics: true
-    checkPermissionsOnStartup: true
-  - name: k8s-acc-32
+  - name: local-k8s-acc-32
     requiredGroupMembership: []
     permissions:
       READ:
@@ -1810,7 +1591,6 @@ kubernetes:
       - write4
       - write5
       - write6
-    configureImagePullSecrets: true
     cacheThreads: 1
     namespaces:
     - oes
@@ -1840,16 +1620,10 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: configserver:olddemo.config
-    kubeconfigContents: kubeconfigContents
-    kubectlExecutable: kubectlExecutable
+    kubeconfigFile: /Users/kiran.godishala/.kube/config
     oAuthScopes: []
     onlySpinnakerManaged: true
-    namingStrategy: kubernetesAnnotations
-    debug: false
-    metrics: true
-    checkPermissionsOnStartup: true
-  - name: k8s-acc-33
+  - name: local-k8s-acc-33
     requiredGroupMembership: []
     permissions:
       READ:
@@ -1866,7 +1640,6 @@ kubernetes:
       - write4
       - write5
       - write6
-    configureImagePullSecrets: true
     cacheThreads: 1
     namespaces:
     - oes
@@ -1896,16 +1669,10 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: configserver:olddemo.config
-    kubeconfigContents: kubeconfigContents
-    kubectlExecutable: kubectlExecutable
+    kubeconfigFile: /Users/kiran.godishala/.kube/config
     oAuthScopes: []
     onlySpinnakerManaged: true
-    namingStrategy: kubernetesAnnotations
-    debug: false
-    metrics: true
-    checkPermissionsOnStartup: true
-  - name: k8s-acc-34
+  - name: local-k8s-acc-34
     requiredGroupMembership: []
     permissions:
       READ:
@@ -1922,7 +1689,6 @@ kubernetes:
       - write4
       - write5
       - write6
-    configureImagePullSecrets: true
     cacheThreads: 1
     namespaces:
     - oes
@@ -1952,16 +1718,10 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: configserver:olddemo.config
-    kubeconfigContents: kubeconfigContents
-    kubectlExecutable: kubectlExecutable
+    kubeconfigFile: /Users/kiran.godishala/.kube/config
     oAuthScopes: []
     onlySpinnakerManaged: true
-    namingStrategy: kubernetesAnnotations
-    debug: false
-    metrics: true
-    checkPermissionsOnStartup: true
-  - name: k8s-acc-35
+  - name: local-k8s-acc-35
     requiredGroupMembership: []
     permissions:
       READ:
@@ -1978,7 +1738,6 @@ kubernetes:
       - write4
       - write5
       - write6
-    configureImagePullSecrets: true
     cacheThreads: 1
     namespaces:
     - oes
@@ -2008,16 +1767,10 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: configserver:olddemo.config
-    kubeconfigContents: kubeconfigContents
-    kubectlExecutable: kubectlExecutable
+    kubeconfigFile: /Users/kiran.godishala/.kube/config
     oAuthScopes: []
     onlySpinnakerManaged: true
-    namingStrategy: kubernetesAnnotations
-    debug: false
-    metrics: true
-    checkPermissionsOnStartup: true
-  - name: k8s-acc-36
+  - name: local-k8s-acc-36
     requiredGroupMembership: []
     permissions:
       READ:
@@ -2034,7 +1787,6 @@ kubernetes:
       - write4
       - write5
       - write6
-    configureImagePullSecrets: true
     cacheThreads: 1
     namespaces:
     - oes
@@ -2064,16 +1816,10 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: configserver:olddemo.config
-    kubeconfigContents: kubeconfigContents
-    kubectlExecutable: kubectlExecutable
+    kubeconfigFile: /Users/kiran.godishala/.kube/config
     oAuthScopes: []
     onlySpinnakerManaged: true
-    namingStrategy: kubernetesAnnotations
-    debug: false
-    metrics: true
-    checkPermissionsOnStartup: true
-  - name: k8s-acc-37
+  - name: local-k8s-acc-37
     requiredGroupMembership: []
     permissions:
       READ:
@@ -2090,7 +1836,6 @@ kubernetes:
       - write4
       - write5
       - write6
-    configureImagePullSecrets: true
     cacheThreads: 1
     namespaces:
     - oes
@@ -2120,16 +1865,10 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: configserver:olddemo.config
-    kubeconfigContents: kubeconfigContents
-    kubectlExecutable: kubectlExecutable
+    kubeconfigFile: /Users/kiran.godishala/.kube/config
     oAuthScopes: []
     onlySpinnakerManaged: true
-    namingStrategy: kubernetesAnnotations
-    debug: false
-    metrics: true
-    checkPermissionsOnStartup: true
-  - name: k8s-acc-38
+  - name: local-k8s-acc-38
     requiredGroupMembership: []
     permissions:
       READ:
@@ -2146,7 +1885,6 @@ kubernetes:
       - write4
       - write5
       - write6
-    configureImagePullSecrets: true
     cacheThreads: 1
     namespaces:
     - oes
@@ -2176,16 +1914,10 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: configserver:olddemo.config
-    kubeconfigContents: kubeconfigContents
-    kubectlExecutable: kubectlExecutable
+    kubeconfigFile: /Users/kiran.godishala/.kube/config
     oAuthScopes: []
     onlySpinnakerManaged: true
-    namingStrategy: kubernetesAnnotations
-    debug: false
-    metrics: true
-    checkPermissionsOnStartup: true
-  - name: k8s-acc-39
+  - name: local-k8s-acc-39
     requiredGroupMembership: []
     permissions:
       READ:
@@ -2202,7 +1934,6 @@ kubernetes:
       - write4
       - write5
       - write6
-    configureImagePullSecrets: true
     cacheThreads: 1
     namespaces:
     - oes
@@ -2232,16 +1963,10 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: configserver:olddemo.config
-    kubeconfigContents: kubeconfigContents
-    kubectlExecutable: kubectlExecutable
+    kubeconfigFile: /Users/kiran.godishala/.kube/config
     oAuthScopes: []
     onlySpinnakerManaged: true
-    namingStrategy: kubernetesAnnotations
-    debug: false
-    metrics: true
-    checkPermissionsOnStartup: true
-  - name: k8s-acc-40
+  - name: local-k8s-acc-40
     requiredGroupMembership: []
     permissions:
       READ:
@@ -2258,7 +1983,6 @@ kubernetes:
       - write4
       - write5
       - write6
-    configureImagePullSecrets: true
     cacheThreads: 1
     namespaces:
     - oes
@@ -2288,16 +2012,10 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: configserver:olddemo.config
-    kubeconfigContents: kubeconfigContents
-    kubectlExecutable: kubectlExecutable
+    kubeconfigFile: /Users/kiran.godishala/.kube/config
     oAuthScopes: []
     onlySpinnakerManaged: true
-    namingStrategy: kubernetesAnnotations
-    debug: false
-    metrics: true
-    checkPermissionsOnStartup: true
-  - name: k8s-acc-41
+  - name: local-k8s-acc-41
     requiredGroupMembership: []
     permissions:
       READ:
@@ -2314,7 +2032,6 @@ kubernetes:
       - write4
       - write5
       - write6
-    configureImagePullSecrets: true
     cacheThreads: 1
     namespaces:
     - oes
@@ -2344,16 +2061,10 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: configserver:olddemo.config
-    kubeconfigContents: kubeconfigContents
-    kubectlExecutable: kubectlExecutable
+    kubeconfigFile: /Users/kiran.godishala/.kube/config
     oAuthScopes: []
     onlySpinnakerManaged: true
-    namingStrategy: kubernetesAnnotations
-    debug: false
-    metrics: true
-    checkPermissionsOnStartup: true
-  - name: k8s-acc-42
+  - name: local-k8s-acc-42
     requiredGroupMembership: []
     permissions:
       READ:
@@ -2370,7 +2081,6 @@ kubernetes:
       - write4
       - write5
       - write6
-    configureImagePullSecrets: true
     cacheThreads: 1
     namespaces:
     - oes
@@ -2400,16 +2110,10 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: configserver:olddemo.config
-    kubeconfigContents: kubeconfigContents
-    kubectlExecutable: kubectlExecutable
+    kubeconfigFile: /Users/kiran.godishala/.kube/config
     oAuthScopes: []
     onlySpinnakerManaged: true
-    namingStrategy: kubernetesAnnotations
-    debug: false
-    metrics: true
-    checkPermissionsOnStartup: true
-  - name: k8s-acc-43
+  - name: local-k8s-acc-43
     requiredGroupMembership: []
     permissions:
       READ:
@@ -2426,7 +2130,6 @@ kubernetes:
       - write4
       - write5
       - write6
-    configureImagePullSecrets: true
     cacheThreads: 1
     namespaces:
     - oes
@@ -2456,16 +2159,10 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: configserver:olddemo.config
-    kubeconfigContents: kubeconfigContents
-    kubectlExecutable: kubectlExecutable
+    kubeconfigFile: /Users/kiran.godishala/.kube/config
     oAuthScopes: []
     onlySpinnakerManaged: true
-    namingStrategy: kubernetesAnnotations
-    debug: false
-    metrics: true
-    checkPermissionsOnStartup: true
-  - name: k8s-acc-44
+  - name: local-k8s-acc-44
     requiredGroupMembership: []
     permissions:
       READ:
@@ -2482,7 +2179,6 @@ kubernetes:
       - write4
       - write5
       - write6
-    configureImagePullSecrets: true
     cacheThreads: 1
     namespaces:
     - oes
@@ -2512,16 +2208,10 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: configserver:olddemo.config
-    kubeconfigContents: kubeconfigContents
-    kubectlExecutable: kubectlExecutable
+    kubeconfigFile: /Users/kiran.godishala/.kube/config
     oAuthScopes: []
     onlySpinnakerManaged: true
-    namingStrategy: kubernetesAnnotations
-    debug: false
-    metrics: true
-    checkPermissionsOnStartup: true
-  - name: k8s-acc-45
+  - name: local-k8s-acc-45
     requiredGroupMembership: []
     permissions:
       READ:
@@ -2538,7 +2228,6 @@ kubernetes:
       - write4
       - write5
       - write6
-    configureImagePullSecrets: true
     cacheThreads: 1
     namespaces:
     - oes
@@ -2568,16 +2257,10 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: configserver:olddemo.config
-    kubeconfigContents: kubeconfigContents
-    kubectlExecutable: kubectlExecutable
+    kubeconfigFile: /Users/kiran.godishala/.kube/config
     oAuthScopes: []
     onlySpinnakerManaged: true
-    namingStrategy: kubernetesAnnotations
-    debug: false
-    metrics: true
-    checkPermissionsOnStartup: true
-  - name: k8s-acc-46
+  - name: local-k8s-acc-46
     requiredGroupMembership: []
     permissions:
       READ:
@@ -2594,7 +2277,6 @@ kubernetes:
       - write4
       - write5
       - write6
-    configureImagePullSecrets: true
     cacheThreads: 1
     namespaces:
     - oes
@@ -2624,16 +2306,10 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: configserver:olddemo.config
-    kubeconfigContents: kubeconfigContents
-    kubectlExecutable: kubectlExecutable
+    kubeconfigFile: /Users/kiran.godishala/.kube/config
     oAuthScopes: []
     onlySpinnakerManaged: true
-    namingStrategy: kubernetesAnnotations
-    debug: false
-    metrics: true
-    checkPermissionsOnStartup: true
-  - name: k8s-acc-47
+  - name: local-k8s-acc-47
     requiredGroupMembership: []
     permissions:
       READ:
@@ -2650,7 +2326,6 @@ kubernetes:
       - write4
       - write5
       - write6
-    configureImagePullSecrets: true
     cacheThreads: 1
     namespaces:
     - oes
@@ -2680,16 +2355,10 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: configserver:olddemo.config
-    kubeconfigContents: kubeconfigContents
-    kubectlExecutable: kubectlExecutable
+    kubeconfigFile: /Users/kiran.godishala/.kube/config
     oAuthScopes: []
     onlySpinnakerManaged: true
-    namingStrategy: kubernetesAnnotations
-    debug: false
-    metrics: true
-    checkPermissionsOnStartup: true
-  - name: k8s-acc-48
+  - name: local-k8s-acc-48
     requiredGroupMembership: []
     permissions:
       READ:
@@ -2706,7 +2375,6 @@ kubernetes:
       - write4
       - write5
       - write6
-    configureImagePullSecrets: true
     cacheThreads: 1
     namespaces:
     - oes
@@ -2736,16 +2404,10 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: configserver:olddemo.config
-    kubeconfigContents: kubeconfigContents
-    kubectlExecutable: kubectlExecutable
+    kubeconfigFile: /Users/kiran.godishala/.kube/config
     oAuthScopes: []
     onlySpinnakerManaged: true
-    namingStrategy: kubernetesAnnotations
-    debug: false
-    metrics: true
-    checkPermissionsOnStartup: true
-  - name: k8s-acc-49
+  - name: local-k8s-acc-49
     requiredGroupMembership: []
     permissions:
       READ:
@@ -2762,7 +2424,6 @@ kubernetes:
       - write4
       - write5
       - write6
-    configureImagePullSecrets: true
     cacheThreads: 1
     namespaces:
     - oes
@@ -2792,13 +2453,2457 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: configserver:olddemo.config
-    kubeconfigContents: kubeconfigContents
-    kubectlExecutable: kubectlExecutable
+    kubeconfigFile: /Users/kiran.godishala/.kube/config
     oAuthScopes: []
     onlySpinnakerManaged: true
-    namingStrategy: kubernetesAnnotations
-    debug: false
-    metrics: true
-    checkPermissionsOnStartup: true
+  - name: local-k8s-acc-50
+    requiredGroupMembership: []
+    permissions:
+      READ:
+      - read1
+      - read2
+      - read3
+      - read4
+      - read5
+      - read6
+      WRITE:
+      - write1
+      - write2
+      - write3
+      - write4
+      - write5
+      - write6
+    cacheThreads: 1
+    namespaces:
+    - oes
+    - baseline-spinnaker
+    - spinnaker
+    - dev-spinnaker
+    - stg-spinnaker
+    - qa-spinnaker
+    - demo-spinnaker
+    - demo2-spin
+    - stg2-spin
+    - dev2-spin
+    - dev3-spin
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /Users/kiran.godishala/.kube/config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: local-k8s-acc-51
+    requiredGroupMembership: []
+    permissions:
+      READ:
+      - read1
+      - read2
+      - read3
+      - read4
+      - read5
+      - read6
+      WRITE:
+      - write1
+      - write2
+      - write3
+      - write4
+      - write5
+      - write6
+    cacheThreads: 1
+    namespaces:
+    - oes
+    - baseline-spinnaker
+    - spinnaker
+    - dev-spinnaker
+    - stg-spinnaker
+    - qa-spinnaker
+    - demo-spinnaker
+    - demo2-spin
+    - stg2-spin
+    - dev2-spin
+    - dev3-spin
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /Users/kiran.godishala/.kube/config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: local-k8s-acc-52
+    requiredGroupMembership: []
+    permissions:
+      READ:
+      - read1
+      - read2
+      - read3
+      - read4
+      - read5
+      - read6
+      WRITE:
+      - write1
+      - write2
+      - write3
+      - write4
+      - write5
+      - write6
+    cacheThreads: 1
+    namespaces:
+    - oes
+    - baseline-spinnaker
+    - spinnaker
+    - dev-spinnaker
+    - stg-spinnaker
+    - qa-spinnaker
+    - demo-spinnaker
+    - demo2-spin
+    - stg2-spin
+    - dev2-spin
+    - dev3-spin
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /Users/kiran.godishala/.kube/config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: local-k8s-acc-53
+    requiredGroupMembership: []
+    permissions:
+      READ:
+      - read1
+      - read2
+      - read3
+      - read4
+      - read5
+      - read6
+      WRITE:
+      - write1
+      - write2
+      - write3
+      - write4
+      - write5
+      - write6
+    cacheThreads: 1
+    namespaces:
+    - oes
+    - baseline-spinnaker
+    - spinnaker
+    - dev-spinnaker
+    - stg-spinnaker
+    - qa-spinnaker
+    - demo-spinnaker
+    - demo2-spin
+    - stg2-spin
+    - dev2-spin
+    - dev3-spin
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /Users/kiran.godishala/.kube/config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: local-k8s-acc-54
+    requiredGroupMembership: []
+    permissions:
+      READ:
+      - read1
+      - read2
+      - read3
+      - read4
+      - read5
+      - read6
+      WRITE:
+      - write1
+      - write2
+      - write3
+      - write4
+      - write5
+      - write6
+    cacheThreads: 1
+    namespaces:
+    - oes
+    - baseline-spinnaker
+    - spinnaker
+    - dev-spinnaker
+    - stg-spinnaker
+    - qa-spinnaker
+    - demo-spinnaker
+    - demo2-spin
+    - stg2-spin
+    - dev2-spin
+    - dev3-spin
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /Users/kiran.godishala/.kube/config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: local-k8s-acc-55
+    requiredGroupMembership: []
+    permissions:
+      READ:
+      - read1
+      - read2
+      - read3
+      - read4
+      - read5
+      - read6
+      WRITE:
+      - write1
+      - write2
+      - write3
+      - write4
+      - write5
+      - write6
+    cacheThreads: 1
+    namespaces:
+    - oes
+    - baseline-spinnaker
+    - spinnaker
+    - dev-spinnaker
+    - stg-spinnaker
+    - qa-spinnaker
+    - demo-spinnaker
+    - demo2-spin
+    - stg2-spin
+    - dev2-spin
+    - dev3-spin
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /Users/kiran.godishala/.kube/config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: local-k8s-acc-56
+    requiredGroupMembership: []
+    permissions:
+      READ:
+      - read1
+      - read2
+      - read3
+      - read4
+      - read5
+      - read6
+      WRITE:
+      - write1
+      - write2
+      - write3
+      - write4
+      - write5
+      - write6
+    cacheThreads: 1
+    namespaces:
+    - oes
+    - baseline-spinnaker
+    - spinnaker
+    - dev-spinnaker
+    - stg-spinnaker
+    - qa-spinnaker
+    - demo-spinnaker
+    - demo2-spin
+    - stg2-spin
+    - dev2-spin
+    - dev3-spin
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /Users/kiran.godishala/.kube/config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: local-k8s-acc-57
+    requiredGroupMembership: []
+    permissions:
+      READ:
+      - read1
+      - read2
+      - read3
+      - read4
+      - read5
+      - read6
+      WRITE:
+      - write1
+      - write2
+      - write3
+      - write4
+      - write5
+      - write6
+    cacheThreads: 1
+    namespaces:
+    - oes
+    - baseline-spinnaker
+    - spinnaker
+    - dev-spinnaker
+    - stg-spinnaker
+    - qa-spinnaker
+    - demo-spinnaker
+    - demo2-spin
+    - stg2-spin
+    - dev2-spin
+    - dev3-spin
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /Users/kiran.godishala/.kube/config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: local-k8s-acc-58
+    requiredGroupMembership: []
+    permissions:
+      READ:
+      - read1
+      - read2
+      - read3
+      - read4
+      - read5
+      - read6
+      WRITE:
+      - write1
+      - write2
+      - write3
+      - write4
+      - write5
+      - write6
+    cacheThreads: 1
+    namespaces:
+    - oes
+    - baseline-spinnaker
+    - spinnaker
+    - dev-spinnaker
+    - stg-spinnaker
+    - qa-spinnaker
+    - demo-spinnaker
+    - demo2-spin
+    - stg2-spin
+    - dev2-spin
+    - dev3-spin
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /Users/kiran.godishala/.kube/config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: local-k8s-acc-59
+    requiredGroupMembership: []
+    permissions:
+      READ:
+      - read1
+      - read2
+      - read3
+      - read4
+      - read5
+      - read6
+      WRITE:
+      - write1
+      - write2
+      - write3
+      - write4
+      - write5
+      - write6
+    cacheThreads: 1
+    namespaces:
+    - oes
+    - baseline-spinnaker
+    - spinnaker
+    - dev-spinnaker
+    - stg-spinnaker
+    - qa-spinnaker
+    - demo-spinnaker
+    - demo2-spin
+    - stg2-spin
+    - dev2-spin
+    - dev3-spin
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /Users/kiran.godishala/.kube/config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: local-k8s-acc-60
+    requiredGroupMembership: []
+    permissions:
+      READ:
+      - read1
+      - read2
+      - read3
+      - read4
+      - read5
+      - read6
+      WRITE:
+      - write1
+      - write2
+      - write3
+      - write4
+      - write5
+      - write6
+    cacheThreads: 1
+    namespaces:
+    - oes
+    - baseline-spinnaker
+    - spinnaker
+    - dev-spinnaker
+    - stg-spinnaker
+    - qa-spinnaker
+    - demo-spinnaker
+    - demo2-spin
+    - stg2-spin
+    - dev2-spin
+    - dev3-spin
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /Users/kiran.godishala/.kube/config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: local-k8s-acc-61
+    requiredGroupMembership: []
+    permissions:
+      READ:
+      - read1
+      - read2
+      - read3
+      - read4
+      - read5
+      - read6
+      WRITE:
+      - write1
+      - write2
+      - write3
+      - write4
+      - write5
+      - write6
+    cacheThreads: 1
+    namespaces:
+    - oes
+    - baseline-spinnaker
+    - spinnaker
+    - dev-spinnaker
+    - stg-spinnaker
+    - qa-spinnaker
+    - demo-spinnaker
+    - demo2-spin
+    - stg2-spin
+    - dev2-spin
+    - dev3-spin
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /Users/kiran.godishala/.kube/config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: local-k8s-acc-62
+    requiredGroupMembership: []
+    permissions:
+      READ:
+      - read1
+      - read2
+      - read3
+      - read4
+      - read5
+      - read6
+      WRITE:
+      - write1
+      - write2
+      - write3
+      - write4
+      - write5
+      - write6
+    cacheThreads: 1
+    namespaces:
+    - oes
+    - baseline-spinnaker
+    - spinnaker
+    - dev-spinnaker
+    - stg-spinnaker
+    - qa-spinnaker
+    - demo-spinnaker
+    - demo2-spin
+    - stg2-spin
+    - dev2-spin
+    - dev3-spin
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /Users/kiran.godishala/.kube/config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: local-k8s-acc-63
+    requiredGroupMembership: []
+    permissions:
+      READ:
+      - read1
+      - read2
+      - read3
+      - read4
+      - read5
+      - read6
+      WRITE:
+      - write1
+      - write2
+      - write3
+      - write4
+      - write5
+      - write6
+    cacheThreads: 1
+    namespaces:
+    - oes
+    - baseline-spinnaker
+    - spinnaker
+    - dev-spinnaker
+    - stg-spinnaker
+    - qa-spinnaker
+    - demo-spinnaker
+    - demo2-spin
+    - stg2-spin
+    - dev2-spin
+    - dev3-spin
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /Users/kiran.godishala/.kube/config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: local-k8s-acc-64
+    requiredGroupMembership: []
+    permissions:
+      READ:
+      - read1
+      - read2
+      - read3
+      - read4
+      - read5
+      - read6
+      WRITE:
+      - write1
+      - write2
+      - write3
+      - write4
+      - write5
+      - write6
+    cacheThreads: 1
+    namespaces:
+    - oes
+    - baseline-spinnaker
+    - spinnaker
+    - dev-spinnaker
+    - stg-spinnaker
+    - qa-spinnaker
+    - demo-spinnaker
+    - demo2-spin
+    - stg2-spin
+    - dev2-spin
+    - dev3-spin
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /Users/kiran.godishala/.kube/config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: local-k8s-acc-65
+    requiredGroupMembership: []
+    permissions:
+      READ:
+      - read1
+      - read2
+      - read3
+      - read4
+      - read5
+      - read6
+      WRITE:
+      - write1
+      - write2
+      - write3
+      - write4
+      - write5
+      - write6
+    cacheThreads: 1
+    namespaces:
+    - oes
+    - baseline-spinnaker
+    - spinnaker
+    - dev-spinnaker
+    - stg-spinnaker
+    - qa-spinnaker
+    - demo-spinnaker
+    - demo2-spin
+    - stg2-spin
+    - dev2-spin
+    - dev3-spin
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /Users/kiran.godishala/.kube/config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: local-k8s-acc-66
+    requiredGroupMembership: []
+    permissions:
+      READ:
+      - read1
+      - read2
+      - read3
+      - read4
+      - read5
+      - read6
+      WRITE:
+      - write1
+      - write2
+      - write3
+      - write4
+      - write5
+      - write6
+    cacheThreads: 1
+    namespaces:
+    - oes
+    - baseline-spinnaker
+    - spinnaker
+    - dev-spinnaker
+    - stg-spinnaker
+    - qa-spinnaker
+    - demo-spinnaker
+    - demo2-spin
+    - stg2-spin
+    - dev2-spin
+    - dev3-spin
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /Users/kiran.godishala/.kube/config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: local-k8s-acc-67
+    requiredGroupMembership: []
+    permissions:
+      READ:
+      - read1
+      - read2
+      - read3
+      - read4
+      - read5
+      - read6
+      WRITE:
+      - write1
+      - write2
+      - write3
+      - write4
+      - write5
+      - write6
+    cacheThreads: 1
+    namespaces:
+    - oes
+    - baseline-spinnaker
+    - spinnaker
+    - dev-spinnaker
+    - stg-spinnaker
+    - qa-spinnaker
+    - demo-spinnaker
+    - demo2-spin
+    - stg2-spin
+    - dev2-spin
+    - dev3-spin
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /Users/kiran.godishala/.kube/config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: local-k8s-acc-68
+    requiredGroupMembership: []
+    permissions:
+      READ:
+      - read1
+      - read2
+      - read3
+      - read4
+      - read5
+      - read6
+      WRITE:
+      - write1
+      - write2
+      - write3
+      - write4
+      - write5
+      - write6
+    cacheThreads: 1
+    namespaces:
+    - oes
+    - baseline-spinnaker
+    - spinnaker
+    - dev-spinnaker
+    - stg-spinnaker
+    - qa-spinnaker
+    - demo-spinnaker
+    - demo2-spin
+    - stg2-spin
+    - dev2-spin
+    - dev3-spin
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /Users/kiran.godishala/.kube/config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: local-k8s-acc-69
+    requiredGroupMembership: []
+    permissions:
+      READ:
+      - read1
+      - read2
+      - read3
+      - read4
+      - read5
+      - read6
+      WRITE:
+      - write1
+      - write2
+      - write3
+      - write4
+      - write5
+      - write6
+    cacheThreads: 1
+    namespaces:
+    - oes
+    - baseline-spinnaker
+    - spinnaker
+    - dev-spinnaker
+    - stg-spinnaker
+    - qa-spinnaker
+    - demo-spinnaker
+    - demo2-spin
+    - stg2-spin
+    - dev2-spin
+    - dev3-spin
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /Users/kiran.godishala/.kube/config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: local-k8s-acc-70
+    requiredGroupMembership: []
+    permissions:
+      READ:
+      - read1
+      - read2
+      - read3
+      - read4
+      - read5
+      - read6
+      WRITE:
+      - write1
+      - write2
+      - write3
+      - write4
+      - write5
+      - write6
+    cacheThreads: 1
+    namespaces:
+    - oes
+    - baseline-spinnaker
+    - spinnaker
+    - dev-spinnaker
+    - stg-spinnaker
+    - qa-spinnaker
+    - demo-spinnaker
+    - demo2-spin
+    - stg2-spin
+    - dev2-spin
+    - dev3-spin
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /Users/kiran.godishala/.kube/config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: local-k8s-acc-71
+    requiredGroupMembership: []
+    permissions:
+      READ:
+      - read1
+      - read2
+      - read3
+      - read4
+      - read5
+      - read6
+      WRITE:
+      - write1
+      - write2
+      - write3
+      - write4
+      - write5
+      - write6
+    cacheThreads: 1
+    namespaces:
+    - oes
+    - baseline-spinnaker
+    - spinnaker
+    - dev-spinnaker
+    - stg-spinnaker
+    - qa-spinnaker
+    - demo-spinnaker
+    - demo2-spin
+    - stg2-spin
+    - dev2-spin
+    - dev3-spin
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /Users/kiran.godishala/.kube/config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: local-k8s-acc-72
+    requiredGroupMembership: []
+    permissions:
+      READ:
+      - read1
+      - read2
+      - read3
+      - read4
+      - read5
+      - read6
+      WRITE:
+      - write1
+      - write2
+      - write3
+      - write4
+      - write5
+      - write6
+    cacheThreads: 1
+    namespaces:
+    - oes
+    - baseline-spinnaker
+    - spinnaker
+    - dev-spinnaker
+    - stg-spinnaker
+    - qa-spinnaker
+    - demo-spinnaker
+    - demo2-spin
+    - stg2-spin
+    - dev2-spin
+    - dev3-spin
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /Users/kiran.godishala/.kube/config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: local-k8s-acc-73
+    requiredGroupMembership: []
+    permissions:
+      READ:
+      - read1
+      - read2
+      - read3
+      - read4
+      - read5
+      - read6
+      WRITE:
+      - write1
+      - write2
+      - write3
+      - write4
+      - write5
+      - write6
+    cacheThreads: 1
+    namespaces:
+    - oes
+    - baseline-spinnaker
+    - spinnaker
+    - dev-spinnaker
+    - stg-spinnaker
+    - qa-spinnaker
+    - demo-spinnaker
+    - demo2-spin
+    - stg2-spin
+    - dev2-spin
+    - dev3-spin
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /Users/kiran.godishala/.kube/config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: local-k8s-acc-74
+    requiredGroupMembership: []
+    permissions:
+      READ:
+      - read1
+      - read2
+      - read3
+      - read4
+      - read5
+      - read6
+      WRITE:
+      - write1
+      - write2
+      - write3
+      - write4
+      - write5
+      - write6
+    cacheThreads: 1
+    namespaces:
+    - oes
+    - baseline-spinnaker
+    - spinnaker
+    - dev-spinnaker
+    - stg-spinnaker
+    - qa-spinnaker
+    - demo-spinnaker
+    - demo2-spin
+    - stg2-spin
+    - dev2-spin
+    - dev3-spin
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /Users/kiran.godishala/.kube/config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: local-k8s-acc-75
+    requiredGroupMembership: []
+    permissions:
+      READ:
+      - read1
+      - read2
+      - read3
+      - read4
+      - read5
+      - read6
+      WRITE:
+      - write1
+      - write2
+      - write3
+      - write4
+      - write5
+      - write6
+    cacheThreads: 1
+    namespaces:
+    - oes
+    - baseline-spinnaker
+    - spinnaker
+    - dev-spinnaker
+    - stg-spinnaker
+    - qa-spinnaker
+    - demo-spinnaker
+    - demo2-spin
+    - stg2-spin
+    - dev2-spin
+    - dev3-spin
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /Users/kiran.godishala/.kube/config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: local-k8s-acc-76
+    requiredGroupMembership: []
+    permissions:
+      READ:
+      - read1
+      - read2
+      - read3
+      - read4
+      - read5
+      - read6
+      WRITE:
+      - write1
+      - write2
+      - write3
+      - write4
+      - write5
+      - write6
+    cacheThreads: 1
+    namespaces:
+    - oes
+    - baseline-spinnaker
+    - spinnaker
+    - dev-spinnaker
+    - stg-spinnaker
+    - qa-spinnaker
+    - demo-spinnaker
+    - demo2-spin
+    - stg2-spin
+    - dev2-spin
+    - dev3-spin
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /Users/kiran.godishala/.kube/config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: local-k8s-acc-77
+    requiredGroupMembership: []
+    permissions:
+      READ:
+      - read1
+      - read2
+      - read3
+      - read4
+      - read5
+      - read6
+      WRITE:
+      - write1
+      - write2
+      - write3
+      - write4
+      - write5
+      - write6
+    cacheThreads: 1
+    namespaces:
+    - oes
+    - baseline-spinnaker
+    - spinnaker
+    - dev-spinnaker
+    - stg-spinnaker
+    - qa-spinnaker
+    - demo-spinnaker
+    - demo2-spin
+    - stg2-spin
+    - dev2-spin
+    - dev3-spin
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /Users/kiran.godishala/.kube/config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: local-k8s-acc-78
+    requiredGroupMembership: []
+    permissions:
+      READ:
+      - read1
+      - read2
+      - read3
+      - read4
+      - read5
+      - read6
+      WRITE:
+      - write1
+      - write2
+      - write3
+      - write4
+      - write5
+      - write6
+    cacheThreads: 1
+    namespaces:
+    - oes
+    - baseline-spinnaker
+    - spinnaker
+    - dev-spinnaker
+    - stg-spinnaker
+    - qa-spinnaker
+    - demo-spinnaker
+    - demo2-spin
+    - stg2-spin
+    - dev2-spin
+    - dev3-spin
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /Users/kiran.godishala/.kube/config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: local-k8s-acc-79
+    requiredGroupMembership: []
+    permissions:
+      READ:
+      - read1
+      - read2
+      - read3
+      - read4
+      - read5
+      - read6
+      WRITE:
+      - write1
+      - write2
+      - write3
+      - write4
+      - write5
+      - write6
+    cacheThreads: 1
+    namespaces:
+    - oes
+    - baseline-spinnaker
+    - spinnaker
+    - dev-spinnaker
+    - stg-spinnaker
+    - qa-spinnaker
+    - demo-spinnaker
+    - demo2-spin
+    - stg2-spin
+    - dev2-spin
+    - dev3-spin
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /Users/kiran.godishala/.kube/config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: local-k8s-acc-80
+    requiredGroupMembership: []
+    permissions:
+      READ:
+      - read1
+      - read2
+      - read3
+      - read4
+      - read5
+      - read6
+      WRITE:
+      - write1
+      - write2
+      - write3
+      - write4
+      - write5
+      - write6
+    cacheThreads: 1
+    namespaces:
+    - oes
+    - baseline-spinnaker
+    - spinnaker
+    - dev-spinnaker
+    - stg-spinnaker
+    - qa-spinnaker
+    - demo-spinnaker
+    - demo2-spin
+    - stg2-spin
+    - dev2-spin
+    - dev3-spin
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /Users/kiran.godishala/.kube/config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: local-k8s-acc-81
+    requiredGroupMembership: []
+    permissions:
+      READ:
+      - read1
+      - read2
+      - read3
+      - read4
+      - read5
+      - read6
+      WRITE:
+      - write1
+      - write2
+      - write3
+      - write4
+      - write5
+      - write6
+    cacheThreads: 1
+    namespaces:
+    - oes
+    - baseline-spinnaker
+    - spinnaker
+    - dev-spinnaker
+    - stg-spinnaker
+    - qa-spinnaker
+    - demo-spinnaker
+    - demo2-spin
+    - stg2-spin
+    - dev2-spin
+    - dev3-spin
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /Users/kiran.godishala/.kube/config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: local-k8s-acc-82
+    requiredGroupMembership: []
+    permissions:
+      READ:
+      - read1
+      - read2
+      - read3
+      - read4
+      - read5
+      - read6
+      WRITE:
+      - write1
+      - write2
+      - write3
+      - write4
+      - write5
+      - write6
+    cacheThreads: 1
+    namespaces:
+    - oes
+    - baseline-spinnaker
+    - spinnaker
+    - dev-spinnaker
+    - stg-spinnaker
+    - qa-spinnaker
+    - demo-spinnaker
+    - demo2-spin
+    - stg2-spin
+    - dev2-spin
+    - dev3-spin
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /Users/kiran.godishala/.kube/config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: local-k8s-acc-83
+    requiredGroupMembership: []
+    permissions:
+      READ:
+      - read1
+      - read2
+      - read3
+      - read4
+      - read5
+      - read6
+      WRITE:
+      - write1
+      - write2
+      - write3
+      - write4
+      - write5
+      - write6
+    cacheThreads: 1
+    namespaces:
+    - oes
+    - baseline-spinnaker
+    - spinnaker
+    - dev-spinnaker
+    - stg-spinnaker
+    - qa-spinnaker
+    - demo-spinnaker
+    - demo2-spin
+    - stg2-spin
+    - dev2-spin
+    - dev3-spin
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /Users/kiran.godishala/.kube/config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: local-k8s-acc-84
+    requiredGroupMembership: []
+    permissions:
+      READ:
+      - read1
+      - read2
+      - read3
+      - read4
+      - read5
+      - read6
+      WRITE:
+      - write1
+      - write2
+      - write3
+      - write4
+      - write5
+      - write6
+    cacheThreads: 1
+    namespaces:
+    - oes
+    - baseline-spinnaker
+    - spinnaker
+    - dev-spinnaker
+    - stg-spinnaker
+    - qa-spinnaker
+    - demo-spinnaker
+    - demo2-spin
+    - stg2-spin
+    - dev2-spin
+    - dev3-spin
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /Users/kiran.godishala/.kube/config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: local-k8s-acc-85
+    requiredGroupMembership: []
+    permissions:
+      READ:
+      - read1
+      - read2
+      - read3
+      - read4
+      - read5
+      - read6
+      WRITE:
+      - write1
+      - write2
+      - write3
+      - write4
+      - write5
+      - write6
+    cacheThreads: 1
+    namespaces:
+    - oes
+    - baseline-spinnaker
+    - spinnaker
+    - dev-spinnaker
+    - stg-spinnaker
+    - qa-spinnaker
+    - demo-spinnaker
+    - demo2-spin
+    - stg2-spin
+    - dev2-spin
+    - dev3-spin
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /Users/kiran.godishala/.kube/config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: local-k8s-acc-86
+    requiredGroupMembership: []
+    permissions:
+      READ:
+      - read1
+      - read2
+      - read3
+      - read4
+      - read5
+      - read6
+      WRITE:
+      - write1
+      - write2
+      - write3
+      - write4
+      - write5
+      - write6
+    cacheThreads: 1
+    namespaces:
+    - oes
+    - baseline-spinnaker
+    - spinnaker
+    - dev-spinnaker
+    - stg-spinnaker
+    - qa-spinnaker
+    - demo-spinnaker
+    - demo2-spin
+    - stg2-spin
+    - dev2-spin
+    - dev3-spin
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /Users/kiran.godishala/.kube/config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: local-k8s-acc-87
+    requiredGroupMembership: []
+    permissions:
+      READ:
+      - read1
+      - read2
+      - read3
+      - read4
+      - read5
+      - read6
+      WRITE:
+      - write1
+      - write2
+      - write3
+      - write4
+      - write5
+      - write6
+    cacheThreads: 1
+    namespaces:
+    - oes
+    - baseline-spinnaker
+    - spinnaker
+    - dev-spinnaker
+    - stg-spinnaker
+    - qa-spinnaker
+    - demo-spinnaker
+    - demo2-spin
+    - stg2-spin
+    - dev2-spin
+    - dev3-spin
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /Users/kiran.godishala/.kube/config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: local-k8s-acc-88
+    requiredGroupMembership: []
+    permissions:
+      READ:
+      - read1
+      - read2
+      - read3
+      - read4
+      - read5
+      - read6
+      WRITE:
+      - write1
+      - write2
+      - write3
+      - write4
+      - write5
+      - write6
+    cacheThreads: 1
+    namespaces:
+    - oes
+    - baseline-spinnaker
+    - spinnaker
+    - dev-spinnaker
+    - stg-spinnaker
+    - qa-spinnaker
+    - demo-spinnaker
+    - demo2-spin
+    - stg2-spin
+    - dev2-spin
+    - dev3-spin
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /Users/kiran.godishala/.kube/config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: local-k8s-acc-89
+    requiredGroupMembership: []
+    permissions:
+      READ:
+      - read1
+      - read2
+      - read3
+      - read4
+      - read5
+      - read6
+      WRITE:
+      - write1
+      - write2
+      - write3
+      - write4
+      - write5
+      - write6
+    cacheThreads: 1
+    namespaces:
+    - oes
+    - baseline-spinnaker
+    - spinnaker
+    - dev-spinnaker
+    - stg-spinnaker
+    - qa-spinnaker
+    - demo-spinnaker
+    - demo2-spin
+    - stg2-spin
+    - dev2-spin
+    - dev3-spin
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /Users/kiran.godishala/.kube/config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: local-k8s-acc-90
+    requiredGroupMembership: []
+    permissions:
+      READ:
+      - read1
+      - read2
+      - read3
+      - read4
+      - read5
+      - read6
+      WRITE:
+      - write1
+      - write2
+      - write3
+      - write4
+      - write5
+      - write6
+    cacheThreads: 1
+    namespaces:
+    - oes
+    - baseline-spinnaker
+    - spinnaker
+    - dev-spinnaker
+    - stg-spinnaker
+    - qa-spinnaker
+    - demo-spinnaker
+    - demo2-spin
+    - stg2-spin
+    - dev2-spin
+    - dev3-spin
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /Users/kiran.godishala/.kube/config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: local-k8s-acc-91
+    requiredGroupMembership: []
+    permissions:
+      READ:
+      - read1
+      - read2
+      - read3
+      - read4
+      - read5
+      - read6
+      WRITE:
+      - write1
+      - write2
+      - write3
+      - write4
+      - write5
+      - write6
+    cacheThreads: 1
+    namespaces:
+    - oes
+    - baseline-spinnaker
+    - spinnaker
+    - dev-spinnaker
+    - stg-spinnaker
+    - qa-spinnaker
+    - demo-spinnaker
+    - demo2-spin
+    - stg2-spin
+    - dev2-spin
+    - dev3-spin
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /Users/kiran.godishala/.kube/config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: local-k8s-acc-92
+    requiredGroupMembership: []
+    permissions:
+      READ:
+      - read1
+      - read2
+      - read3
+      - read4
+      - read5
+      - read6
+      WRITE:
+      - write1
+      - write2
+      - write3
+      - write4
+      - write5
+      - write6
+    cacheThreads: 1
+    namespaces:
+    - oes
+    - baseline-spinnaker
+    - spinnaker
+    - dev-spinnaker
+    - stg-spinnaker
+    - qa-spinnaker
+    - demo-spinnaker
+    - demo2-spin
+    - stg2-spin
+    - dev2-spin
+    - dev3-spin
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /Users/kiran.godishala/.kube/config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: local-k8s-acc-93
+    requiredGroupMembership: []
+    permissions:
+      READ:
+      - read1
+      - read2
+      - read3
+      - read4
+      - read5
+      - read6
+      WRITE:
+      - write1
+      - write2
+      - write3
+      - write4
+      - write5
+      - write6
+    cacheThreads: 1
+    namespaces:
+    - oes
+    - baseline-spinnaker
+    - spinnaker
+    - dev-spinnaker
+    - stg-spinnaker
+    - qa-spinnaker
+    - demo-spinnaker
+    - demo2-spin
+    - stg2-spin
+    - dev2-spin
+    - dev3-spin
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /Users/kiran.godishala/.kube/config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: local-k8s-acc-94
+    requiredGroupMembership: []
+    permissions:
+      READ:
+      - read1
+      - read2
+      - read3
+      - read4
+      - read5
+      - read6
+      WRITE:
+      - write1
+      - write2
+      - write3
+      - write4
+      - write5
+      - write6
+    cacheThreads: 1
+    namespaces:
+    - oes
+    - baseline-spinnaker
+    - spinnaker
+    - dev-spinnaker
+    - stg-spinnaker
+    - qa-spinnaker
+    - demo-spinnaker
+    - demo2-spin
+    - stg2-spin
+    - dev2-spin
+    - dev3-spin
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /Users/kiran.godishala/.kube/config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: local-k8s-acc-95
+    requiredGroupMembership: []
+    permissions:
+      READ:
+      - read1
+      - read2
+      - read3
+      - read4
+      - read5
+      - read6
+      WRITE:
+      - write1
+      - write2
+      - write3
+      - write4
+      - write5
+      - write6
+    cacheThreads: 1
+    namespaces:
+    - oes
+    - baseline-spinnaker
+    - spinnaker
+    - dev-spinnaker
+    - stg-spinnaker
+    - qa-spinnaker
+    - demo-spinnaker
+    - demo2-spin
+    - stg2-spin
+    - dev2-spin
+    - dev3-spin
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /Users/kiran.godishala/.kube/config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: local-k8s-acc-96
+    requiredGroupMembership: []
+    permissions:
+      READ:
+      - read1
+      - read2
+      - read3
+      - read4
+      - read5
+      - read6
+      WRITE:
+      - write1
+      - write2
+      - write3
+      - write4
+      - write5
+      - write6
+    cacheThreads: 1
+    namespaces:
+    - oes
+    - baseline-spinnaker
+    - spinnaker
+    - dev-spinnaker
+    - stg-spinnaker
+    - qa-spinnaker
+    - demo-spinnaker
+    - demo2-spin
+    - stg2-spin
+    - dev2-spin
+    - dev3-spin
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /Users/kiran.godishala/.kube/config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: local-k8s-acc-97
+    requiredGroupMembership: []
+    permissions:
+      READ:
+      - read1
+      - read2
+      - read3
+      - read4
+      - read5
+      - read6
+      WRITE:
+      - write1
+      - write2
+      - write3
+      - write4
+      - write5
+      - write6
+    cacheThreads: 1
+    namespaces:
+    - oes
+    - baseline-spinnaker
+    - spinnaker
+    - dev-spinnaker
+    - stg-spinnaker
+    - qa-spinnaker
+    - demo-spinnaker
+    - demo2-spin
+    - stg2-spin
+    - dev2-spin
+    - dev3-spin
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /Users/kiran.godishala/.kube/config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: local-k8s-acc-98
+    requiredGroupMembership: []
+    permissions:
+      READ:
+      - read1
+      - read2
+      - read3
+      - read4
+      - read5
+      - read6
+      WRITE:
+      - write1
+      - write2
+      - write3
+      - write4
+      - write5
+      - write6
+    cacheThreads: 1
+    namespaces:
+    - oes
+    - baseline-spinnaker
+    - spinnaker
+    - dev-spinnaker
+    - stg-spinnaker
+    - qa-spinnaker
+    - demo-spinnaker
+    - demo2-spin
+    - stg2-spin
+    - dev2-spin
+    - dev3-spin
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /Users/kiran.godishala/.kube/config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: local-k8s-acc-99
+    requiredGroupMembership: []
+    permissions:
+      READ:
+      - read1
+      - read2
+      - read3
+      - read4
+      - read5
+      - read6
+      WRITE:
+      - write1
+      - write2
+      - write3
+      - write4
+      - write5
+      - write6
+    cacheThreads: 1
+    namespaces:
+    - oes
+    - baseline-spinnaker
+    - spinnaker
+    - dev-spinnaker
+    - stg-spinnaker
+    - qa-spinnaker
+    - demo-spinnaker
+    - demo2-spin
+    - stg2-spin
+    - dev2-spin
+    - dev3-spin
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /Users/kiran.godishala/.kube/config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
 
