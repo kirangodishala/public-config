@@ -1,6 +1,6 @@
 ---
 spring:
-  profiles: caching-local
+  profiles: caching-a-local
 
 kubernetes:
   enabled: true
