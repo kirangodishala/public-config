@@ -1,0 +1,22 @@
+kubernetes:
+  enabled: true
+  accounts:
+  - name: k8s0-dynamic
+    requiredGroupMembership: []
+    permissions: {}
+    dockerRegistries: []
+    providerVersion: V2
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - sharding
+    omitNamespaces: []
+    kinds:
+    - pod
+    - namespace
+    omitKinds: []
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /Users/kiran.godishala/.kube/config
+    oAuthScopes: []
+    onlySpinnakerManaged: false
