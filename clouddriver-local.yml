@@ -1,7 +1,7 @@
 kubernetes:
   enabled: true
   accounts:
-  - name: k8s1-dynamic
+  - name: k8s0-dynamic
     requiredGroupMembership: []
     permissions: {}
     dockerRegistries: []
