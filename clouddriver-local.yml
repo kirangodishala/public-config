@@ -1,22 +1,94 @@
 kubernetes:
-  enabled: true
   accounts:
-  - name: k8s0-dynamic
-    requiredGroupMembership: []
-    permissions: {}
-    dockerRegistries: []
-    providerVersion: V2
-    configureImagePullSecrets: true
-    cacheThreads: 1
-    namespaces:
-    - sharding
-    omitNamespaces: []
-    kinds:
-    - pod
-    - namespace
-    omitKinds: []
-    customResources: []
-    cachingPolicies: []
-    kubeconfigFile: /Users/kiran.godishala/.kube/config
-    oAuthScopes: []
-    onlySpinnakerManaged: false
+    - cacheThreads: 1
+      checkPermissionsOnStartup: false
+      configureImagePullSecrets: true
+      kubeconfigFile: /tmp/k8configs/config
+      liveManifestCalls: true
+      name: prd-acc-00001
+      namespaces:
+        - prd
+      permissions: {}
+      providerVersion: V2
+    - cacheIntervalSeconds: 10000
+      cacheThreads: 1
+      checkPermissionsOnStartup: false
+      configureImagePullSecrets: true
+      kubeconfigFile: /tmp/k8configs/config
+      liveManifestCalls: true
+      name: prd-acc-00002
+      namespaces:
+        - prd
+      permissions: {}
+      providerVersion: V2
+    - cacheIntervalSeconds: 10000
+      cacheThreads: 1
+      checkPermissionsOnStartup: false
+      configureImagePullSecrets: true
+      kubeconfigFile: /tmp/k8configs/config
+      liveManifestCalls: true
+      name: prd-acc-00003
+      namespaces:
+        - prd
+      permissions: {}
+      providerVersion: V2
+    - cacheIntervalSeconds: 10000
+      cacheThreads: 1
+      checkPermissionsOnStartup: false
+      configureImagePullSecrets: true
+      kubeconfigFile: /tmp/k8configs/config
+      liveManifestCalls: true
+      name: prd-acc-00004
+      namespaces:
+        - prd
+      permissions: {}
+      providerVersion: V2
+    - cacheIntervalSeconds: 10000
+      cacheThreads: 1
+      checkPermissionsOnStartup: false
+      configureImagePullSecrets: true
+      kubeconfigFile: /tmp/k8configs/config
+      liveManifestCalls: true
+      name: prd-acc-00005
+      namespaces:
+        - prd
+      permissions: {}
+      providerVersion: V2
+    - cacheIntervalSeconds: 10000
+      cacheThreads: 1
+      checkPermissionsOnStartup: false
+      configureImagePullSecrets: true
+      kubeconfigFile: /tmp/k8configs/config
+      liveManifestCalls: true
+      name: prd-acc-00006
+      namespaces:
+        - spinnaker-np-alln
+      permissions: {}
+      providerVersion: V2
+    - cacheIntervalSeconds: 10000
+      cacheThreads: 1
+      checkPermissionsOnStartup: false
+      configureImagePullSecrets: true
+      kubeconfigFile: /tmp/k8configs/config
+      liveManifestCalls: true
+      name: prd-acc-00007
+      namespaces:
+        - prd
+      permissions: {}
+      providerVersion: V2
+    - cacheThreads: 1
+      checkPermissionsOnStartup: false
+      configureImagePullSecrets: true
+      kubeconfigFile: /tmp/k8configs/config
+      liveManifestCalls: true
+      name: prd-acc-00008
+      namespaces:
+        - prd
+      permissions:
+        READ:
+          - spinnaker-admin
+          - apps-admin
+        WRITE:
+          - spinnaker-admin
+          - apps-admin
+      providerVersion: V2
