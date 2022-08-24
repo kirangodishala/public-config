@@ -6,4 +6,15 @@ kubernetes:
       name: acc-00001
       namespaces: []
       permissions: {}
- 
+    - cacheThreads: 1
+      checkPermissionsOnStartup: false
+      kubeconfigFile: configserver:config-00001
+      name: acc-00002
+      namespaces: []
+      permissions: {}
+    - cacheThreads: 1
+      checkPermissionsOnStartup: false
+      kubeconfigFile: configserver:config-00001
+      name: acc-00003
+      namespaces: []
+      permissions: {}
