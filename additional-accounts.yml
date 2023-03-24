@@ -1,0 +1,20 @@
+kubernetes:
+  accounts:
+    - cacheThreads: 1
+      checkPermissionsOnStartup: false
+      kubeconfigFile: configserver:config-00001
+      name: acc-00004
+      namespaces: []
+      permissions: {}
+    - cacheThreads: 1
+      checkPermissionsOnStartup: false
+      kubeconfigFile: configserver:config-00001
+      name: acc-00005
+      namespaces: []
+      permissions: {}
+    - cacheThreads: 1
+      checkPermissionsOnStartup: false
+      kubeconfigFile: configserver:config-00001
+      name: acc-00006
+      namespaces: []
+      permissions: {}
