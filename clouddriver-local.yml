@@ -1,6 +1,6 @@
-spring:
-  config:
-    import: additional-accounts.yml
+# spring:
+#   config:
+#     import: additional-accounts.yml
 kubernetes:
   accounts:
     - cacheThreads: 1
